@@ -11,7 +11,7 @@ export default function SnakeList() {
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredSnakes, setFilteredSnakes] = useState(snakesData);
 
-  const handleSearch = (event) => {
+  const handleSearch = (event: { target: { value: string } }) => {
     const query = event.target.value.toLowerCase();
     setSearchTerm(query);
 
