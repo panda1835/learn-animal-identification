@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import snakesData from "../../data/snake_vietnam.json";
+import snakesData from "../../data/snake/snake_vietnam.json";
 
 export default function SnakeList() {
   const [searchTerm, setSearchTerm] = useState("");

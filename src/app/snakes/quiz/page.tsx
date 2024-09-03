@@ -3,89 +3,17 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import clsx from "clsx";
+
 import SnakeInfoModal from "../../../components/SnakeInfoModal";
 import ScoreBoard from "../../../components/ScoreBoard";
 
-// Mock data for the quiz (in a real application, you'd fetch this from an API)
-const quizData = [
-  {
-    id: 1,
-    image:
-      "https://cdn.britannica.com/32/238532-050-A1B99DE8/Indian-cobra-naja-naja-venonmous-snake-reptile.jpg",
-    correctAnswer: "Cobra",
-    options: ["Cobra", "Python", "Viper", "Rattlesnake"],
-    profiles: {
-      name: "Cobra",
-      scientificName: "Naja",
-      description:
-        "Cobras are venomous snakes known for their distinctive hood and upright posture when threatened.",
-      habitat:
-        "Various habitats including grasslands, forests, and urban areas",
-      diet: "Small mammals, birds, and other snakes",
-      venomous: true,
-      image:
-        "https://cdn.britannica.com/32/238532-050-A1B99DE8/Indian-cobra-naja-naja-venonmous-snake-reptile.jpg",
-    },
-  },
-  {
-    id: 1,
-    image:
-      "https://cdn.britannica.com/32/238532-050-A1B99DE8/Indian-cobra-naja-naja-venonmous-snake-reptile.jpg",
-    correctAnswer: "Cobra",
-    options: ["Cobra", "Python", "Viper", "Rattlesnake"],
-    profiles: {
-      name: "Cobra",
-      scientificName: "Naja",
-      description:
-        "Cobras are venomous snakes known for their distinctive hood and upright posture when threatened.",
-      habitat:
-        "Various habitats including grasslands, forests, and urban areas",
-      diet: "Small mammals, birds, and other snakes",
-      venomous: true,
-      image:
-        "https://cdn.britannica.com/32/238532-050-A1B99DE8/Indian-cobra-naja-naja-venonmous-snake-reptile.jpg",
-    },
-  },
-  {
-    id: 1,
-    image:
-      "https://cdn.britannica.com/32/238532-050-A1B99DE8/Indian-cobra-naja-naja-venonmous-snake-reptile.jpg",
-    correctAnswer: "Cobra",
-    options: ["Cobra", "Python", "Viper", "Rattlesnake"],
-    profiles: {
-      name: "Cobra",
-      scientificName: "Naja",
-      description:
-        "Cobras are venomous snakes known for their distinctive hood and upright posture when threatened.",
-      habitat:
-        "Various habitats including grasslands, forests, and urban areas",
-      diet: "Small mammals, birds, and other snakes",
-      venomous: true,
-      image:
-        "https://cdn.britannica.com/32/238532-050-A1B99DE8/Indian-cobra-naja-naja-venonmous-snake-reptile.jpg",
-    },
-  },
-  {
-    id: 1,
-    image:
-      "https://cdn.britannica.com/32/238532-050-A1B99DE8/Indian-cobra-naja-naja-venonmous-snake-reptile.jpg",
-    correctAnswer: "Cobra",
-    options: ["Cobra", "Python", "Viper", "Rattlesnake"],
-    profiles: {
-      name: "Cobra",
-      scientificName: "Naja",
-      description:
-        "Cobras are venomous snakes known for their distinctive hood and upright posture when threatened.",
-      habitat:
-        "Various habitats including grasslands, forests, and urban areas",
-      diet: "Small mammals, birds, and other snakes",
-      venomous: true,
-      image:
-        "https://cdn.britannica.com/32/238532-050-A1B99DE8/Indian-cobra-naja-naja-venonmous-snake-reptile.jpg",
-    },
-  },
-  // Add more quiz questions here
-];
+import basic from "../../../data/pack/basic.json";
+import snakeData from "../../../data/snake/snake_vietnam.json";
+
+import { createQuiz } from "../../../utils/createQuiz";
+
+const quizData = createQuiz(basic["species"], 5);
 
 export default function QuizPage() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -140,7 +68,7 @@ export default function QuizPage() {
           src={currentQuizItem.image}
           alt="Snake"
           fill
-          style={{ objectFit: "cover" }}
+          style={{ objectFit: "contain" }}
           className="rounded-lg shadow-md"
         />
       </div>
@@ -149,21 +77,30 @@ export default function QuizPage() {
           <button
             key={index}
             onClick={() => handleAnswerSelect(option)}
-            className={`p-4 rounded-lg shadow-md transition transform hover:scale-105 ${
-              selectedAnswer === option
-                ? selectedAnswer === currentQuizItem.correctAnswer
-                  ? "bg-green-500 text-white"
-                  : "bg-red-500 text-white"
-                : "bg-yellow-500 text-gray-800 hover:bg-yellow-600"
-            } flex flex-col items-center justify-center`}
+            className={clsx(
+              "p-4 rounded-lg shadow-md transition transform hover:scale-105 flex flex-col items-center justify-center",
+              {
+                // Default styling when no answer is selected
+                "bg-yellow-500 text-gray-800 hover:bg-yellow-600":
+                  !selectedAnswer,
+                // Disabled styling when an answer is selected
+                "bg-gray-300 text-gray-500 cursor-not-allowed": selectedAnswer,
+                // Highlight correct answer
+                "bg-green-500 text-white":
+                  option === currentQuizItem.correctAnswer && showResult,
+                // Highlight selected incorrect answer
+                "bg-red-500 text-white":
+                  selectedAnswer === option &&
+                  selectedAnswer !== currentQuizItem.correctAnswer &&
+                  showResult,
+              }
+            )}
+            disabled={showResult} // Disable button after selection
           >
-            <span className="text-xl font-bold">{option}</span>
-            <span className="text-sm text-gray-700 mt-2">
-              {quizData.find((item) => item.correctAnswer === option)?.profiles
-                .venomous
-                ? "Venomous"
-                : "Non-venomous"}
+            <span className="text-xl font-bold">
+              {snakeData[option]["vietnamese_name"]}
             </span>
+            <span className="text-sm text-gray-700 mt-2">toxicity</span>
           </button>
         ))}
       </div>
@@ -213,7 +150,7 @@ export default function QuizPage() {
         <SnakeInfoModal
           show={showModal}
           onClose={() => setShowModal(false)}
-          snake={currentQuizItem.profiles}
+          snake={snakeData[selectedAnswer]}
         />
       </div>
 
