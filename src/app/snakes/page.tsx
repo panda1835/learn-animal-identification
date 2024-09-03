@@ -9,7 +9,9 @@ import snakesData from "../../data/snake_vietnam.json";
 
 export default function SnakeList() {
   const [searchTerm, setSearchTerm] = useState("");
-  const [filteredSnakes, setFilteredSnakes] = useState(snakesData);
+  const [filteredSnakes, setFilteredSnakes] = useState(
+    snakesData as Record<string, any>
+  );
 
   const handleSearch = (event: { target: { value: string } }) => {
     const query = event.target.value.toLowerCase();
@@ -20,7 +22,8 @@ export default function SnakeList() {
         const snake = snakesData[key];
         return (
           snake.vietnamese_name.toLowerCase().includes(query) ||
-          snake.scientific_name.toLowerCase().includes(query)
+          snake.scientific_name.toLowerCase().includes(query) ||
+          snake.distribution.toLowerCase().includes(query)
         );
       })
       .reduce((obj, key) => {
