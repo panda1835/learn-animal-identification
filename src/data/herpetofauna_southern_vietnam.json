@@ -1,0 +1,68 @@
+[
+  {
+    "scientific name": "Argyrophis siamensis",
+    "size": "TL up to 166 mm",
+    "identification": "Tiny worm-like body; brown back and cream venter; rudimental eyes; 22 midbody scale rows.",
+    "ecology & habitat": "Poorly studied. Occasionally found in forested areas.",
+    "activity": "Presumably subfossorial.",
+    "diet": "Presumably earthworms and small arthropods.",
+    "confusing species": "Indotyphlops braminus*, Argyrophis diardii, A. muelleri.",
+    "reproduction": "Unstudied.",
+    "toxicity": "Harmless."
+  },
+  {
+    "scientific name": "Indotyphlops braminus",
+    "size": "TL up to 180 mm",
+    "identification": "Tiny worm-like body; uniform brown coloration; rudimental eyes; 20 midbody scale rows.",
+    "ecology & habitat": "Inhabits disturbed and agricultural landscapes at elevations up to 2,000 m a. s. l.",
+    "activity": "Subfossorial, rarely seen on surface.",
+    "diet": "Termites, ants, earthworms.",
+    "confusing species": "Argyrophis siamensis*, A. diardii, A. muelleri.",
+    "reproduction": "Oviparous, with 1-8 eggs (diameter 11-20\u00b13-5 mm) per clutch. Parthenogenetic.",
+    "toxicity": "Harmless."
+  },
+  {
+    "scientific name": "Cylindrophis jodiae",
+    "size": "TL up to 656 mm",
+    "identification": "Very short reddish tail; scaled venter with a black and white tesselated pattern.",
+    "ecology & habitat": "Inhabits wet lowlands and swampy areas in forested habitats, disturbed and agricultural lowland areas, also found in saltwater lagoons.",
+    "activity": "Nocturnal, terrestrial, subfossorial, partly aquatic. If molested, hides its head under body coils and raises the bright-colored tail in a threatening position. Shy and unaggressive.",
+    "diet": "Snakes, eels.",
+    "confusing species": "None.",
+    "reproduction": "Unknown, presumably ovoviviparous like other species of the genus.",
+    "toxicity": "Harmless."
+  },
+  {
+    "scientific name": "Malayopython reticulatus",
+    "size": "Documented TL up to 7.7 m, though specimens up to 10 m are reported in literature.",
+    "identification": "Large size; yellow head with dark medial stripe; black-edged rhomboid spots on back.",
+    "ecology & habitat": "Inhabits humid forested and rural areas at elevations up to 1,500 m a. s. l.",
+    "activity": "Nocturnal, terrestrial; usually observed near water.",
+    "diet": "Mammals, birds, lizards; large adults may prey on civets, pigs and deer. Kills by constriction.",
+    "confusing species": "Python bivittatus*, P. brongersmai.",
+    "reproduction": "Oviparous, with 14\u2013124 eggs (diameter 90-93 \u00b1 58-62 mm) per clutch; hatchlings measure 600-750 mm.",
+    "toxicity": "Though not venomous, bites severely; large individuals can be dangerous."
+  },
+  {
+    "scientific name": "Python bivittatus",
+    "size": "Documented TL up to 5.7 m, though specimens up to 7.6 m are reported in literature.",
+    "identification": "Large size; brown head with light arrow-shaped pattern; dark-brown blotches on back.",
+    "ecology & habitat": "Inhabits lowland forests and rural areas at elevations up to 900 m a. s. l.",
+    "activity": "Mainly nocturnal, terrestrial and arboreal.",
+    "diet": "Mammals (monkeys, goats, calves), large birds (ducks, pheasants), lizards (monitors); kills by constriction.",
+    "confusing species": "Malayopython reticulatus*, Python brongersmai.",
+    "reproduction": "Oviparous, with 30-58 eggs (120 \u00b1 60 mm) per clutch attended by the female coiled around it; incubation takes 2.5 months, hatchlings measure about 550 mm.",
+    "toxicity": "Though not venomous, large individuals can be dangerous."
+  },
+  {
+    "scientific name": "Xenopeltis unicolor",
+    "size": "TL up to 1,140 mm.",
+    "identification": "Glossy brown iridescent coloration.",
+    "ecology & habitat": "Inhabits forested lowlands or submontane regions preferring wet areas or freshwater edges and often display a burrowing or aquatic activity.",
+    "activity": "Not explicitly mentioned in the provided text, but likely terrestrial or subfossorial with some aquatic tendencies based on habitat preferences.",
+    "diet": "Small vertebrates, which they kill by constriction like boas and pythons.",
+    "confusing species": "Not mentioned in the provided text for this species.",
+    "reproduction": "Oviparous.",
+    "toxicity": "Not mentioned in the provided text, but likely harmless as they are constrictors, not venomous."
+  }
+]
