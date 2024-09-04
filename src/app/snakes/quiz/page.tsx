@@ -1,6 +1,9 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 import Link from "next/link";
 import Image from "next/image";
 import clsx from "clsx";
@@ -13,7 +16,7 @@ import snakeData from "../../../data/snake/snake_vietnam.json";
 
 import { createQuiz } from "../../../utils/createQuiz";
 
-const quizData = createQuiz(basic["species"], 5);
+const quizData = createQuiz(basic["species"], 30);
 
 export default function QuizPage() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -22,6 +25,7 @@ export default function QuizPage() {
   const [showModal, setShowModal] = useState(false);
   const [showScoreBoard, setShowScoreBoard] = useState(false);
   const [score, setScore] = useState(0);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
 
   const handleAnswerSelect = (answer) => {
     setSelectedAnswer(answer);
@@ -70,6 +74,16 @@ export default function QuizPage() {
           fill
           style={{ objectFit: "contain" }}
           className="rounded-lg shadow-md"
+          onClick={() => {
+            setLightboxOpen(true);
+          }}
+        />
+
+        <Lightbox
+          open={lightboxOpen}
+          close={() => setLightboxOpen(false)}
+          slides={[{ src: currentQuizItem.image }]}
+          // plugins={[Fullscreen, Thumbnails, Zoom]}
         />
       </div>
       <div className="grid grid-cols-2 gap-6 mb-6">
