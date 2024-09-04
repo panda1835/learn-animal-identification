@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               </Link>
             </li>
             <li>
-              <Link href="/snakes" className="text-white hover:underline">
+              <Link href="/snakes/list" className="text-white hover:underline">
                 Danh sách loài
               </Link>
             </li>

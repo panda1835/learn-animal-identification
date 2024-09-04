@@ -5,7 +5,9 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import snakesData from "../../data/snake/snake_vietnam.json";
+import ListItem from "../../../components/ListItem";
+
+import snakesData from "../../../data/snake/snake_vietnam.json";
 
 export default function SnakeList() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -71,25 +73,8 @@ export default function SnakeList() {
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {Object.keys(filteredSnakes).map((key) => {
           const snake = filteredSnakes[key];
-          return (
-            <Link
-              key={snake.scientific_name}
-              href={`/snakes/${encodeURIComponent(snake.scientific_name)}`} // Encode the scientific name for URL safety
-              className="bg-white p-4 rounded shadow hover:shadow-lg transition-shadow"
-            >
-              <div className="relative w-full h-32 mb-2">
-                <Image
-                  src={snake.thumbnail}
-                  alt={snake.vietnamese_name}
-                  fill
-                  style={{ objectFit: "cover" }}
-                  className="rounded"
-                />
-              </div>
-              <h2 className="text-xl font-semibold">{snake.vietnamese_name}</h2>
-              <p className="italic">{snake.scientific_name}</p>
-            </Link>
-          );
+
+          return <ListItem snake={snake} key={snake.scientific_name} />;
         })}
       </div>
     </div>

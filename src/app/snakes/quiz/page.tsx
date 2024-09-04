@@ -10,13 +10,14 @@ import clsx from "clsx";
 
 import SnakeInfoModal from "../../../components/SnakeInfoModal";
 import ScoreBoard from "../../../components/ScoreBoard";
+import ListItem from "../../../components/ListItem";
 
-import basic from "../../../data/pack/basic.json";
+import pack from "../../../data/pack/basic.json";
 import snakeData from "../../../data/snake/snake_vietnam.json";
 
 import { createQuiz } from "../../../utils/createQuiz";
 
-const quizData = createQuiz(basic["species"], 30);
+const quizData = createQuiz(pack["species"], 30);
 
 export default function QuizPage() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -168,6 +169,18 @@ export default function QuizPage() {
         />
       </div>
 
+      {/* Species list */}
+      <div className="mt-10 text-4xl font-bold mb-6 text-green-700 text-center">
+        Species in this pack
+      </div>
+      <div className="text-center mb-5">{pack.species.length} species</div>
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        {pack["species"].map((species) => (
+          <ListItem key={species} snake={snakeData[species]} />
+        ))}
+      </div>
+
+      {/* Score board */}
       {showScoreBoard && (
         <ScoreBoard
           score={score}
