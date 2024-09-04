@@ -21,6 +21,7 @@ const quizData = createQuiz(pack["species"], 30);
 
 export default function QuizPage() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [modalSpecies, setModalSpecies] = useState("");
   const [selectedAnswer, setSelectedAnswer] = useState("");
   const [showResult, setShowResult] = useState(false);
   const [showModal, setShowModal] = useState(false);
@@ -46,6 +47,10 @@ export default function QuizPage() {
       setShowResult(false);
       setCurrentQuestion((prev) => prev + 1);
     }
+  };
+
+  const handleModalSpecies = (species) => {
+    setModalSpecies(species);
   };
 
   const currentQuizItem = quizData[currentQuestion];
@@ -139,7 +144,10 @@ export default function QuizPage() {
             )}
           </p>
           <button
-            onClick={() => setShowModal(true)}
+            onClick={() => {
+              setModalSpecies(snakeData[selectedAnswer]);
+              setShowModal(true);
+            }}
             className="block mt-4 text-center text-blue-500 hover:underline"
           >
             Learn more about this snake
@@ -165,7 +173,7 @@ export default function QuizPage() {
         <SnakeInfoModal
           show={showModal}
           onClose={() => setShowModal(false)}
-          snake={snakeData[selectedAnswer]}
+          snake={modalSpecies}
         />
       </div>
 
@@ -176,7 +184,31 @@ export default function QuizPage() {
       <div className="text-center mb-5">{pack.species.length} species</div>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {pack["species"].map((species) => (
-          <ListItem key={species} snake={snakeData[species]} />
+          <div
+            key={snakeData[species].scientific_name}
+            className="bg-white p-4 rounded shadow hover:shadow-lg transition-shadow"
+          >
+            <button
+              onClick={() => {
+                setModalSpecies(snakeData[species]);
+                setShowModal(true);
+              }}
+            >
+              <div className="relative w-full h-32 mb-2">
+                <Image
+                  src={snakeData[species].thumbnail}
+                  alt={snakeData[species].vietnamese_name}
+                  fill
+                  style={{ objectFit: "cover" }}
+                  className="rounded"
+                />
+              </div>
+              <h2 className="text-xl font-semibold">
+                {snakeData[species].vietnamese_name}
+              </h2>
+              <p className="italic">{snakeData[species].scientific_name}</p>
+            </button>
+          </div>
         ))}
       </div>
 
