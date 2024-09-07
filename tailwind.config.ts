@@ -18,9 +18,17 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        primaryColor: {
+        primaryColorSnake: {
           light: "#16a34a",
           DEFAULT: "#15803d",
+        },
+        primaryColorBear: {
+          light: "#b45309",
+          DEFAULT: "#78350f",
+        },
+        primaryColorHome: {
+          light: "#e9d5ff",
+          DEFAULT: "#6b21a8",
         },
       },
     },

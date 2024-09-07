@@ -18,7 +18,7 @@ const ListPage = ({ snakeList }) => {
           onClick={() => setViewMode("gallery")}
           className={`mr-2 p-2 rounded ${
             viewMode === "gallery"
-              ? "bg-primaryColorSnake text-white"
+              ? "bg-primaryColorBear text-white"
               : "bg-gray-200"
           }`}
         >
@@ -28,7 +28,7 @@ const ListPage = ({ snakeList }) => {
           onClick={() => setViewMode("table")}
           className={`p-2 rounded ${
             viewMode === "table"
-              ? "bg-primaryColorSnake text-white"
+              ? "bg-primaryColorBear text-white"
               : "bg-gray-200"
           }`}
         >
@@ -39,8 +39,8 @@ const ListPage = ({ snakeList }) => {
       {viewMode === "gallery" ? (
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {Object.keys(snakeList).map((key) => {
-            const snake = snakeList[key];
-            return <ListItem snake={snake} key={snake.scientific_name} />;
+            const bear = snakeList[key];
+            return <ListItem bear={bear} key={bear.scientific_name} />;
           })}
         </div>
       ) : (
@@ -61,17 +61,17 @@ const ListPage = ({ snakeList }) => {
             </thead>
             <tbody>
               {Object.keys(snakeList).map((key) => {
-                const snake = snakeList[key];
+                const bear = snakeList[key];
                 return (
-                  <tr key={snake.id} className="flex flex-col md:table-row">
+                  <tr key={bear.id} className="flex flex-col md:table-row">
                     {" "}
                     {/* Column layout on md and smaller, table-row on larger */}
                     <td className="px-4 py-2 border rounded w-full md:w-auto">
                       <div className="flex flex-row items-center">
-                        <Link href={`/snakes/${snake.scientific_name}`}>
+                        <Link href={`/bears/${bear.scientific_name}`}>
                           <Image
-                            src={snake.thumbnail}
-                            alt={snake.vietnamese_name}
+                            src={bear.thumbnail}
+                            alt={bear.vietnamese_name}
                             height={128} // Smaller image on all screens
                             width={128}
                             style={{ objectFit: "cover" }}
@@ -81,23 +81,25 @@ const ListPage = ({ snakeList }) => {
                           {" "}
                           {/* Add margin on larger screens */}
                           <p className="font-bold">Tên thường gọi:</p>
-                          <p>{snake.vietnamese_name}</p>
+                          <p>
+                            {bear.vietnamese_name} {bear.in_vietnam ? "🇻🇳" : ""}
+                          </p>
                           <p className="font-bold">Tên khoa học:</p>
-                          <p className="italic">{snake.scientific_name}</p>
+                          <p className="italic">{bear.scientific_name}</p>
                           <p className="font-bold">Tên khác:</p>
-                          <p>{snake.other_name}</p>
+                          <p>{bear.other_name}</p>
                         </div>
                       </div>
                     </td>
                     <td className="px-4 py-2 border hidden md:table-cell">
-                      {snake.vietnamese_name}
+                      {bear.vietnamese_name} {bear.in_vietnam ? "🇻🇳" : ""}
                     </td>{" "}
                     {/* Hide on md and smaller */}
                     <td className="px-4 py-2 italic border hidden md:table-cell">
-                      {snake.scientific_name}
+                      {bear.scientific_name}
                     </td>
                     <td className="px-4 py-2 border hidden md:table-cell">
-                      {snake.other_name}
+                      {bear.other_name}
                     </td>
                   </tr>
                 );

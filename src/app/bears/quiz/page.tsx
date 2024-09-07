@@ -3,41 +3,37 @@
 import React, { useState } from "react";
 
 import Lightbox from "yet-another-react-lightbox";
-import "yet-another-react-lightbox/styles.css";
+import "../globals.css";
 import Image from "next/image";
 import clsx from "clsx";
 
-import SnakeInfoModal from "../../../../components/SnakeInfoModal";
-import ScoreBoard from "../../../../components/ScoreBoard";
+import BearInfoModal from "../components/BearInfoModal";
+import ScoreBoard from "../../../components/ScoreBoard";
 
-import packData from "../../../../data/pack/pack.json";
-import snakeData from "../../../../data/snake/snake_vietnam.json";
-import snakeImage from "../../../../data/snake/snake_inat_image.json";
+import bearData from "../../../data/bear/bear.json";
+import bearImage from "../../../data/bear/bear_inat_image.json";
 
-import { createQuiz } from "../../../../utils/createQuiz";
-import { config } from "../../../../utils/config";
+import { createQuiz } from "../../../utils/createQuiz";
+import { config } from "../../../utils/config";
+import BearInfo from "../components/BearInfo";
 
 export default function QuizPage({
-  params,
   searchParams,
 }: {
-  params: {
-    packId: string;
-  };
   searchParams?: {
     numQuestions?: number;
   };
 }) {
-  const packId = params.packId || "";
   const numQuestion =
-    Number(searchParams?.numQuestions) || config.defaultNumberOfQuestions;
+    Number(searchParams?.numQuestions) || config.defaultNumberOfBearQuestions;
 
-  const pack = packData[packId];
-  // const quizData = createQuiz(pack["species"], numQuestion);
+  const speciesList = [];
+  for (const key in bearData) {
+    speciesList.push(key);
+  }
 
-  const [quizData, setQuizData] = useState(
-    createQuiz(pack["species"], snakeImage, numQuestion)
-  );
+  const quizData = createQuiz(speciesList, bearImage, numQuestion);
+
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState(quizData[0]);
   const [modalSpecies, setModalSpecies] = useState("");
@@ -69,9 +65,11 @@ export default function QuizPage({
     }
   };
 
+  console.log(currentQuestion);
+
   return (
     <div className="max-w-3xl mx-auto p-6 font-sans bg-gray-100 rounded-lg shadow-md">
-      <h1 className=" text-center">Snake Identification Quiz</h1>
+      <h1 className="text-center">Bear Identification Quiz</h1>
       <div className="my-6 text-center">
         <p className="text-gray-600">
           Câu hỏi {currentQuestionIndex + 1} / {quizData.length}
@@ -88,7 +86,7 @@ export default function QuizPage({
       <div className="relative w-full h-72 mb-6">
         <Image
           src={currentQuestion.image}
-          alt="Ảnh một bạn rắn"
+          alt="Ảnh một bạn gấu"
           fill
           style={{ objectFit: "contain" }}
           className="rounded-lg shadow-md"
@@ -130,9 +128,8 @@ export default function QuizPage({
             disabled={showResult} // Disable button after selection
           >
             <span className="text-xl font-bold">
-              {snakeData[option]["vietnamese_name"]}
+              {bearData[option]["vietnamese_name"]}
             </span>
-            <span className="text-sm text-gray-700 mt-2">toxicity</span>
           </button>
         ))}
       </div>
@@ -140,12 +137,12 @@ export default function QuizPage({
         <div className="mb-6">
           <button
             onClick={() => {
-              setModalSpecies(snakeData[currentQuestion.correctAnswer]);
+              setModalSpecies(bearData[currentQuestion.correctAnswer]);
               setShowModal(true);
             }}
             className="block mt-4 text-center text-blue-500 hover:underline"
           >
-            Cùng tìm hiểu thêm về bạn rắn này nhé!
+            Cùng tìm hiểu thêm về bạn gấu này nhé!
           </button>
         </div>
       )}
@@ -154,7 +151,7 @@ export default function QuizPage({
           onClick={handleNextQuestion}
           className={`p-3 rounded-lg shadow-md transition ${
             selectedAnswer
-              ? "bg-primaryColorSnake-light text-white hover:bg-primaryColorSnake"
+              ? "bg-primaryColorBear-light text-white hover:bg-primaryColor"
               : "bg-gray-400 text-gray-800 cursor-not-allowed"
           }`}
           disabled={!selectedAnswer}
@@ -165,42 +162,40 @@ export default function QuizPage({
         </button>
       </div>
       <div className="mx-2">
-        <SnakeInfoModal
+        <BearInfoModal
           show={showModal}
           onClose={() => setShowModal(false)}
-          snake={modalSpecies}
+          bear={modalSpecies}
         />
       </div>
 
       {/* Species list */}
-      <h1 className="mt-10  text-center">Các loài trong gói này</h1>
-      <div className="text-center mb-5">{pack.species.length} loài</div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {pack["species"].map((species) => (
+
+      <div className="mt-5 grid grid-cols-1 md:grid-cols-3 gap-4">
+        {speciesList.map((species) => (
           <div
-            key={snakeData[species].scientific_name}
+            key={bearData[species].scientific_name}
             className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow flex flex-col items-center"
           >
             <button
               onClick={() => {
-                setModalSpecies(snakeData[species]);
+                setModalSpecies(bearData[species]);
                 setShowModal(true);
               }}
             >
               <div className="relative w-full h-32 mb-2">
                 <Image
-                  src={snakeData[species].thumbnail}
-                  alt={snakeData[species].vietnamese_name}
+                  src={bearData[species].thumbnail}
+                  alt={bearData[species].vietnamese_name}
                   fill
                   style={{ objectFit: "cover" }}
                   className="rounded"
                 />
               </div>
               <p className="text-xl font-semibold">
-                {snakeData[species].vietnamese_name}
+                {bearData[species].vietnamese_name}
               </p>
-              <p className="italic">{snakeData[species].scientific_name}</p>
-              <p className="">{snakeData[species].other_name}</p>
+              <p className="italic">{bearData[species].scientific_name}</p>
             </button>
           </div>
         ))}
@@ -212,13 +207,8 @@ export default function QuizPage({
           score={score}
           totalQuestions={quizData.length}
           onRestart={() => {
-            setQuizData(createQuiz(pack["species"], snakeImage, numQuestion));
-            setCurrentQuestionIndex(0);
-            setScore(0);
-            setShowScoreBoard(false);
-            setSelectedAnswer("");
-            setShowResult(false);
-            setCurrentQuestion(quizData[0]);
+            // Refresh page
+            window.location.reload();
           }}
         />
       )}

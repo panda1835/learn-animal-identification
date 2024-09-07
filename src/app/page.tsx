@@ -1,50 +1,47 @@
-"use client";
-
-import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function HomePage() {
+export default function Home() {
   return (
-    <div className="max-w-4xl mx-auto p-6 font-sans bg-gray-100 rounded-lg ">
-      <header className="text-center mb-8">
-        <h1 className="text-5xl font-bold text-green-700 mb-4">
-          Welcome to the Snake Identification Quiz
+    <div className="min-h-screen">
+      <header className=" text-center py-8 px-4 rounded-lg bg-primaryColorHome-light">
+        <h1 className="text-4xl font-bold">
+          Khám phá và Nhận diện Các Loài Động vật
         </h1>
-        <p className="text-lg text-gray-700">
-          Test your knowledge and learn more about different species of snakes.
+        <p className="mt-2 text-lg">
+          Học cách nhận diện các loài rắn, gấu, linh trưởng, rùa và nhiều hơn
+          nữa!
         </p>
       </header>
-      <div className="relative w-full h-80 mb-8">
-        <Image
-          src="https://images5.alphacoders.com/872/872097.jpg"
-          alt="Pit viper"
-          fill
-          style={{ objectFit: "cover" }}
-          className="rounded-lg shadow-md"
-        />
-      </div>
-      <section className="mb-8 text-center">
-        <h2 className="text-3xl font-bold text-green-600 mb-4">
-          Why Snake Identification Matters
-        </h2>
-        <p className="text-gray-700 text-lg">
-          Understanding how to identify different snake species is crucial for
-          both safety and conservation efforts. Whether you&apos;re a hiker,
-          gardener, or just curious, this quiz will help you recognize the
-          snakes you may encounter.
-        </p>
-      </section>
-      <section className="text-center">
-        <Link href="/snakes/quiz">
-          <button className="bg-primaryColor-light text-white px-6 py-3 rounded-lg shadow-md hover:bg-primaryColor transition text-xl font-semibold">
-            Start the Quiz
-          </button>
-        </Link>
-      </section>
-      <footer className="mt-12 text-center text-gray-600">
-        <p>© 2024 Snake Identification Quiz. All rights reserved.</p>
-      </footer>
+
+      <main className="py-12 px-4">
+        <section className="mb-8 text-center">
+          <h2 className="text-3xl font-bold">Sứ Mệnh Của Chúng Tôi</h2>
+          <p className="mt-4 text-lg">
+            Mục tiêu của chúng tôi là giúp bạn dễ dàng nhận diện và tìm hiểu
+            thêm về các loài động vật thông qua các hướng dẫn trực quan và thông
+            tin chi tiết về từng loài.
+          </p>
+        </section>
+
+        <section className="grid grid-cols-2 md:grid-cols-2 gap-8 text-center">
+          {[
+            { name: "Rắn", icon: "🐍", link: "/snakes" },
+            { name: "Gấu", icon: "🐻", link: "/bears" },
+            // { name: "Rùa", icon: "🐢", link: "/turtles" },
+            // { name: "Linh Trưởng", icon: "🐵", link: "/primates" },
+          ].map((species) => (
+            <Link
+              key={species.name}
+              href={species.link}
+              className="bg-white rounded-lg shadow-lg p-6 hover:bg-primaryColorHome-light transition border-primaryColorHome-light border-2"
+            >
+              <span className="text-6xl">{species.icon}</span>
+              <h3 className="mt-4 text-2xl font-semibold">{species.name}</h3>
+            </Link>
+          ))}
+        </section>
+      </main>
     </div>
   );
 }
