@@ -52,7 +52,7 @@ export default function SnakeInfo(props) {
         // plugins={[Fullscreen, Thumbnails, Zoom]}
       />
 
-      <div className="bg-white p-4 rounded shadow overflow-y-auto h-full">
+      <div className="bg-white p-4 rounded shadow">
         <p className="text-xl italic mb-2">{snake.scientific_name}</p>
         <p className="mb-2">{snake.description || ""}</p>
         <h2 className="text-2xl font-semibold mt-4 mb-2">Tên gọi khác</h2>

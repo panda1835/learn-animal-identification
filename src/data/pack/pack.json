@@ -1,7 +1,8 @@
 {
   "basic1": {
     "name": "Basic 1",
-    "description": "A basic pack of snakes.",
+    "short_description": "A basic pack of snakes.",
+    "long_description": "A basic pack of snakes. This pack contains a variety of snakes from different families.",
     "thumbnail": "",
     "species": [
       "Deinagkistrodon acutus",
@@ -26,7 +27,8 @@
 
   "basic2": {
     "name": "Basic 2",
-    "description": "A basic pack of snakes.",
+    "short_description": "A basic pack of snakes.",
+    "long_description": "A basic pack of snakes. This pack contains a variety of snakes from different families.",
     "thumbnail": "",
     "species": [
       "Ahaetulla prasina",

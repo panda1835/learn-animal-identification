@@ -15,6 +15,7 @@ const ListPackSpecies = ({ params: { packId } }) => {
       <h1>
         Danh sách {Object.keys(snakeList).length} loài trong gói {pack.name}
       </h1>
+      <p>{pack.long_description}</p>
       <ListPage snakeList={snakeList} />
     </div>
   );

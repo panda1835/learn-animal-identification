@@ -38,7 +38,7 @@ const ListPack = () => {
           >
             <div>
               <p className="semibold text-2xl mb-2">{value.name}</p>
-              <p>{value.description}</p>
+              <p>{value.short_description}</p>
               <p className="my-2">
                 Số loài: {value.species.length}{" "}
                 <Link
