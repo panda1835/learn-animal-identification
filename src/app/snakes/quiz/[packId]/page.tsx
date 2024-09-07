@@ -49,7 +49,7 @@ export default function QuizPage({
     setShowResult(true);
 
     // Update the score if the answer is correct
-    if (answer === quizData[currentQuestionIndex].correctAnswer) {
+    if (answer === currentQuestion.correctAnswer) {
       setScore(score + 1);
     }
   };
@@ -60,8 +60,8 @@ export default function QuizPage({
     } else {
       setSelectedAnswer("");
       setShowResult(false);
+      setCurrentQuestionIndex(currentQuestionIndex + 1);
       setCurrentQuestion(quizData[currentQuestionIndex]);
-      setCurrentQuestionIndex((prev) => prev + 1);
     }
   };
 

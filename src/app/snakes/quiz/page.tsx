@@ -5,12 +5,9 @@ import pack from "../../../data/pack/pack.json";
 import snakeData from "../../../data/snake/snake_vietnam.json";
 import Link from "next/link";
 
-import PackSnakeListModal from "../../../components/PackSnakeListModal";
-
 import { config } from "../../../utils/config";
 
 const ListPack = () => {
-  const [showModal, setShowModal] = useState(false);
   const [numQuestions, setNumQuestions] = useState({});
 
   const defaultNumQuestions = config.defaultNumberOfQuestions;
@@ -39,13 +36,6 @@ const ListPack = () => {
             key={key}
             className="bg-white rounded-lg shadow transition-shadow h-full p-4"
           >
-            <div className="mx-2">
-              <PackSnakeListModal
-                show={showModal}
-                onClose={() => setShowModal(false)}
-                snakeList={snakeListInPack[key]}
-              />
-            </div>
             <div>
               <p className="semibold text-2xl mb-2">{value.name}</p>
               <p>{value.description}</p>
