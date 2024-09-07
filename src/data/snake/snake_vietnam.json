@@ -6,7 +6,9 @@
     "distribution": "Binh Dinh, Khanh Hoa, Ba Ria Vung Tau",
     "thumbnail": "https://static.inaturalist.org/photos/323429435/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Acrochordus_granulatus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Acrochordus_granulatus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Acrochordus javanicus": {
     "scientific_name": "Acrochordus javanicus",
@@ -15,7 +17,9 @@
     "distribution": "Binh Phuoc, Dong Nai, Ho Chi Minh, Can Tho",
     "thumbnail": "https://static.inaturalist.org/photos/165964254/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Elephant_trunk_snake"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Elephant_trunk_snake",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Argyrophis diardii": {
     "scientific_name": "Argyrophis diardii",
@@ -24,7 +28,9 @@
     "distribution": "Quang Ninh, Bac Giang, Thanh Hoa, Nghe An, Ha Tinh, Quang Binh, Quang Nam, Gia Lai, Lam Dong, Tay Ninh",
     "thumbnail": "https://static.inaturalist.org/photos/2276587/medium.JPG",
     "conservation_status": "LC",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Argyrophis_diardii"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Argyrophis_diardii",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Argyrophis giadinhensis": {
     "scientific_name": "Argyrophis giadinhensis",
@@ -33,25 +39,31 @@
     "distribution": "Ho Chi Minh",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Argyrophis muelleri": {
     "scientific_name": "Argyrophis muelleri",
-    "english_name": "Müller’s Blind Snake",
+    "english_name": "Müller's Blind Snake",
     "vietnamese_name": "Rắn giun Muy-le",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/70551558/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Argyrophis siamensis": {
     "scientific_name": "Argyrophis siamensis",
     "english_name": "Siamese Blind Snake",
     "vietnamese_name": "Rắn giun Xiêm",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Indotyphlops braminus": {
     "scientific_name": "Indotyphlops braminus",
@@ -60,7 +72,9 @@
     "distribution": "Lang Son, Quang Ninh, Hai Phong, Thai Nguyen, Vinh Phuc, Bac Giang, Ha Noi, Hai Duong, Thai Binh, Son La, Thanh Hoa, Nghe An, Ha Tinh, Quang Binh, Quang Tri, Thua Thien Hue, Quang Nam, Gia Lai, Dong Nai, Tay Ninh, Hoa Chi Minh, Kien Giang",
     "thumbnail": "https://static.inaturalist.org/photos/404177966/medium.jpeg",
     "conservation_status": "SNA",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Indotyphlops_braminus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Indotyphlops_braminus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Calamaria abramovi": {
     "scientific_name": "Calamaria abramovi",
@@ -69,7 +83,9 @@
     "distribution": "Kon Tum",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Calamaria buchi": {
     "scientific_name": "Calamaria buchi",
@@ -78,25 +94,31 @@
     "distribution": "Ha Tinh, Lam Dong",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/244226799/medium.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Calamaria concolor": {
     "scientific_name": "Calamaria concolor",
     "english_name": "Unicolored Reed Snake",
     "vietnamese_name": "Rắn mai gầm đồng màu",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/244226525/medium.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Calamaria dominic": {
     "scientific_name": "Calamaria dominic",
-    "english_name": "Dominic’s Reed Snake",
+    "english_name": "Dominic's Reed Snake",
     "vietnamese_name": "Rắn mai gầm Đô-mi-níc",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Calamaria gialaiensis": {
     "scientific_name": "Calamaria gialaiensis",
@@ -105,16 +127,20 @@
     "distribution": "Gia Lai",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Calamaria lovii": {
     "scientific_name": "Calamaria lovii",
-    "english_name": "Lovi’s Reed Snake",
+    "english_name": "Lovi's Reed Snake",
     "vietnamese_name": "Rắm mai gầm Lo-vi",
     "distribution": "Gia Lai",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/61634554/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Calamaria pavimentata": {
     "scientific_name": "Calamaria pavimentata",
@@ -123,7 +149,9 @@
     "distribution": "Lao Cai, Yen Bai, Cao Bang, Vinh Phuc, Quang Ninh, Hai Duong, Son La, Hoa Binh, Ha Noi, Nghe An, Ha Tinh, Quang Binh, Quang Tri, Da Nang, Quang Nam, Lam Dong",
     "thumbnail": "https://static.inaturalist.org/photos/6227742/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Collared_reed_snake"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Collared_reed_snake",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Calamaria sangi": {
     "scientific_name": "Calamaria sangi",
@@ -132,7 +160,9 @@
     "distribution": "Kon Tum",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Calamaria septentrionalis": {
     "scientific_name": "Calamaria septentrionalis",
@@ -141,25 +171,31 @@
     "distribution": "Lao Cai, Ha Giang, Cao Bang, Bac Kan, Thai Nguyen, Lang Son, Quang Ninh, Vinh Phuc, Hoa Binh, Ha Noi, Ninh Binh, Thanh Hoa, Nghe An, Ha Tinh, Quang Binh",
     "thumbnail": "https://static.inaturalist.org/photos/26454644/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Calamaria_septentrionalis"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Calamaria_septentrionalis",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Calamaria strigiventris": {
     "scientific_name": "Calamaria strigiventris",
     "english_name": "Striped-belly Reed Snake",
     "vietnamese_name": "Rắn mai gầm bụng sọc đen",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Calamaria thanhi": {
     "scientific_name": "Calamaria thanhi",
-    "english_name": "Thanh’s Reed Snake",
+    "english_name": "Thanh's Reed Snake",
     "vietnamese_name": "Rắn mai gầm Thành",
     "distribution": "Quang Binh",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Ahaetulla nasuta": {
     "scientific_name": "Ahaetulla nasuta",
@@ -168,7 +204,9 @@
     "distribution": "Kon Tum, Gia Lai, Khanh Hoa, Ninh Thuan, Dak Lak, Dong Nai, Tay Ninh, Ho Chi Minh, Vinh Long, Ba Ria Vung Tau, Kien Giang",
     "thumbnail": "https://static.inaturalist.org/photos/222133043/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Ahaetulla_nasuta"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Ahaetulla_nasuta",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Ahaetulla prasina": {
     "scientific_name": "Ahaetulla prasina",
@@ -177,7 +215,9 @@
     "distribution": "Lai Chau, Lao Cai, Ha Giang, Cao Bang, Bac Kan, Lang Son, Thai Nguyen, Vinh Phuc, Quang Ninh, Bac Giang, Hai Duong, Son La, Hoa Binh, Ha Noi, Ninh Binh, Thanh Hoa, Nghe An, Ha Tinh, Quang Binh, Quang Tri, Thua Thien Hue, Da Nang, Quang Nam, Kon Tum, Gia Lai, Dak Lak, Khanh Hoa, Binh Thuan, Binh Phuoc, Dong Nai, Tay Ninh, Ba Ria Vung Tau, Ho Chi Minh, Kien Giang, Ca Mau",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/24080870/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Ahaetulla_prasina"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Ahaetulla_prasina",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Ahaetulla rufusoculara": {
     "scientific_name": "Ahaetulla rufusoculara",
@@ -186,7 +226,9 @@
     "distribution": "o",
     "thumbnail": "https://static.inaturalist.org/photos/227222471/medium.jpeg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Chrysopelea ornata": {
     "scientific_name": "Chrysopelea ornata",
@@ -195,7 +237,9 @@
     "distribution": "Yen Bai, Son La, Thai Nguyen, Vinh Phuc, Nghe An, Quang Binh, Quang Tri, Da Nang, Quang Nam, Kon Tum, Gia Lai, Dak Lak, Khanh Hoa, Ninh Thuan, Dong Nai, Tay Ninh, Ba Ria Vung Tau, Ho Chi Minh, An Giang, Tien Giang, Soc Trang, Vinh Long, Kien Giang, Ca Mau",
     "thumbnail": "https://static.inaturalist.org/photos/329145707/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Chrysopelea_ornata"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Chrysopelea_ornata",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Dendrelaphis cyanochloris": {
     "scientific_name": "Dendrelaphis cyanochloris",
@@ -204,7 +248,9 @@
     "distribution": "Ha Giang, Cao Bang, Bac Kan, Lang Son, Thai Nguyen, Vinh Phuc, Bac Giang, Hai Duong, Son La, Ninh Binh, Thanh Hoa, Nghe An, Ha Tinh, Quang Binh, Quang Tri, Thua Thien Hue, Quang Nam",
     "thumbnail": "https://static.inaturalist.org/photos/263290752/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Dendrelaphis_cyanochloris"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Dendrelaphis_cyanochloris",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Dendrelaphis pictus": {
     "scientific_name": "Dendrelaphis pictus",
@@ -213,7 +259,9 @@
     "distribution": "Dien Bien, Lao Cai, Quang Ninh, Bac Giang, Phu Tho, Quang Binh, Quang Tri, Da Nang, Quang Nam, Gia Lai, Dak Nong, Phu Yen, Khanh Hoa, Dong Nai, Tay Ninh, Binh Duong, Ho Chi Minh, An Giang, Kien Giang, Soc Trang, Ca Mau,",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/4837586/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Dendrelaphis_pictus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Dendrelaphis_pictus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Dendrelaphis subocularis": {
     "scientific_name": "Dendrelaphis subocularis",
@@ -222,16 +270,20 @@
     "distribution": "Hai Duong, Quang Nam, Lam Dong, Ninh Thuan",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/139904/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Dryophiops rubescens": {
     "scientific_name": "Dryophiops rubescens",
     "english_name": "Brown Whip Snake",
     "vietnamese_name": "Rắn roi nâu",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.inaturalist.org/photos/41948401/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Dryophiops_rubescens"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Dryophiops_rubescens",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Archelaphe bella": {
     "scientific_name": "Archelaphe bella",
@@ -240,16 +292,20 @@
     "distribution": "Lao Cai, Lang Son, Bac Giang, Vinh Phuc, Ha Tinh",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/55400229/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Archelaphe"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Archelaphe",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Boiga bourreti": {
     "scientific_name": "Boiga bourreti",
-    "english_name": "Bourret’s Cat Snake",
+    "english_name": "Bourret's Cat Snake",
     "vietnamese_name": "Rắn rào Bua-rê",
     "distribution": "Quang Binh, Kon Tum",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "EN",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Boiga_bourreti"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Boiga_bourreti",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Boiga cyanea": {
     "scientific_name": "Boiga cyanea",
@@ -258,16 +314,20 @@
     "distribution": "Quang Nam, Gia Lai, Dak Lak, Binh Phuoc, Binh Duong, Dong Nai, Tay Ninh, Ba Ria Vung Tau, Ho Chi Minh",
     "thumbnail": "https://static.inaturalist.org/photos/147709344/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Boiga_cyanea"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Boiga_cyanea",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Boiga drapiezii": {
     "scientific_name": "Boiga drapiezii",
-    "english_name": "Drapiez’s Cat Snake",
+    "english_name": "Drapiez's Cat Snake",
     "vietnamese_name": "Rắn rào Đra-pi-e",
     "distribution": "Gia Lai",
     "thumbnail": "https://static.inaturalist.org/photos/46460646/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Boiga_drapiezii"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Boiga_drapiezii",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Boiga guangxiensis": {
     "scientific_name": "Boiga guangxiensis",
@@ -276,7 +336,9 @@
     "distribution": "Lao Cai, Cao Bang, Lang Son, Thai Nguyen, Vinh Phuc, Bac Giang, Quang Binh, Kon Tum, Gia Lai, Lam Dong, Tay Ninh, Dong Nai",
     "thumbnail": "https://static.inaturalist.org/photos/105130298/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Boiga_guangxiensis"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Boiga_guangxiensis",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Boiga jaspidea": {
     "scientific_name": "Boiga jaspidea",
@@ -285,16 +347,20 @@
     "distribution": "Lam Dong",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/49492991/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Boiga_jaspidea"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Boiga_jaspidea",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Boiga kraepelini": {
     "scientific_name": "Boiga kraepelini",
-    "english_name": "Kraepelin’s Cat Snake",
+    "english_name": "Kraepelin's Cat Snake",
     "vietnamese_name": "Rắn rào Kra-pe-lin",
     "distribution": "Cao Bang, Lang Son, Vinh Phuc, Nghe An, Ha Tinh, Thua Thien Hue",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/35176298/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Boiga_kraepelini"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Boiga_kraepelini",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Boiga melanota": {
     "scientific_name": "Boiga melanota",
@@ -303,7 +369,9 @@
     "distribution": "Gia Lai, Binh Duong, Ho Chi Minh",
     "thumbnail": "https://static.inaturalist.org/photos/6227657/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Boiga_melanota"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Boiga_melanota",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Boiga multomaculata": {
     "scientific_name": "Boiga multomaculata",
@@ -312,7 +380,9 @@
     "distribution": "Dien Bien, Lao Cai, Cao Bang, Bac Kan, Lang Son, Vinh Phuc, Son La, Hoa Binh, Ha Noi, Ninh Binh, Nghe An, Ha Tinh, Quang Binh, Quang Tri, Da Nang, Gia Lai, Dak Lak, Dak Nong, Binh Dinh, Ninh Thuan, Ho Chi Minh",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/86904174/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Boiga_multomaculata"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Boiga_multomaculata",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Boiga siamensis": {
     "scientific_name": "Boiga siamensis",
@@ -321,7 +391,9 @@
     "distribution": "Lam Dong, Dong Nai, Tay Ninh",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/150387826/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Boiga_siamensis"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Boiga_siamensis",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Coelognathus flavolineatus": {
     "scientific_name": "Coelognathus flavolineatus",
@@ -330,7 +402,9 @@
     "distribution": "Gia Lai, Binh Phuoc",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/178280604/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Coelognathus_flavolineatus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Coelognathus_flavolineatus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Coelognathus radiatus": {
     "scientific_name": "Coelognathus radiatus",
@@ -339,7 +413,9 @@
     "distribution": "Entire country",
     "thumbnail": "https://static.inaturalist.org/photos/40211747/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Radiated_ratsnake"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Radiated_ratsnake",
+    "other_name": "Rắn rồng, rắn hổ ngựa",
+    "fun_fact": ""
   },
   "Elaphe carinata": {
     "scientific_name": "Elaphe carinata",
@@ -348,16 +424,20 @@
     "distribution": "Lai Chau, Lao Cai, Lang son",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/25283/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Elaphe_carinata"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Elaphe_carinata",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Elaphe moellendorffi": {
     "scientific_name": "Elaphe moellendorffi",
-    "english_name": "Moellendorf’s Rat Snake",
+    "english_name": "Moellendorf's Rat Snake",
     "vietnamese_name": "Rắn sọc đuôi khoanh",
     "distribution": "Tuyen Quang, Bac Kan, Lanng Son, Thai Nguyen, Vinh Phuc, Son La, Hoa Binh, Ninh Binh, Nghe An, Ha Tinh, Quang Binh, Quang Tri",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/42463736/medium.jpg",
     "conservation_status": "VU",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Elaphe taeniura": {
     "scientific_name": "Elaphe taeniura",
@@ -366,7 +446,9 @@
     "distribution": "Lao Cai, Son La, Cao Bang, Bac Kan, Thai Nguyen, Vinh Phuc, Hai Duong, Ha Tinh, Quang Binh, Thua Thien Hue, Kon Tum, Gia Lai",
     "thumbnail": "https://static.inaturalist.org/photos/42749894/medium.jpg",
     "conservation_status": "A2d",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Euprepiophis mandarinus": {
     "scientific_name": "Euprepiophis mandarinus",
@@ -375,7 +457,9 @@
     "distribution": "Lai Chau, Lao Cai, Tuyen Quang, Lang Son, Vinh Phuc, Son La, Ha Tinh, Dak Lak",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/939276/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Mandarin_rat_snake"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Mandarin_rat_snake",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Gonyosoma boulengeri": {
     "scientific_name": "Gonyosoma boulengeri",
@@ -384,7 +468,9 @@
     "distribution": "Son La, Thai Nguyen, Vinh Phuc, Ha Noi, Quang Ninh, Hai Phong, Ha Tinh",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/35817562/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Rhinoceros_ratsnake"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Rhinoceros_ratsnake",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Gonyosoma coeruleum": {
     "scientific_name": "Gonyosoma coeruleum",
@@ -393,7 +479,9 @@
     "distribution": "Lao Cai, Bac Kan, Thai Nguyen, Vinh Phuc, Nghe An, Quang Binh, Gia Lai",
     "thumbnail": "https://static.inaturalist.org/photos/169359083/medium.jpeg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Gonyosoma frenatum": {
     "scientific_name": "Gonyosoma frenatum",
@@ -402,7 +490,9 @@
     "distribution": "Lao Cai, Lang Son, Vinh Phuc, Quang Binh",
     "thumbnail": "https://static.inaturalist.org/photos/107639094/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Gonyosoma_frenatum"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Gonyosoma_frenatum",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Gonyosoma oxycephalum": {
     "scientific_name": "Gonyosoma oxycephalum",
@@ -411,7 +501,9 @@
     "distribution": "Quang Binh, Lam Dong, Binh Phuoc, Dong Nai, Tay Ninh",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/387326528/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Gonyosoma_oxycephalum"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Gonyosoma_oxycephalum",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Liopeltis frenatum": {
     "scientific_name": "Liopeltis frenatum",
@@ -420,16 +512,20 @@
     "distribution": "Lao Cai, Quang Binh, Da Nang, Gia Lai, Dong Nai",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Liopeltis pallidonuchalis": {
     "scientific_name": "Liopeltis pallidonuchalis",
     "english_name": "Pale-necked Ringneck",
     "vietnamese_name": "Rắn đai gáy nhạt màu",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/402026670/medium.jpeg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Liopeltis tricolor": {
     "scientific_name": "Liopeltis tricolor",
@@ -438,7 +534,9 @@
     "distribution": "Lam Dong",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/13147365/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Lycodon davisonii": {
     "scientific_name": "Lycodon davisonii",
@@ -447,7 +545,9 @@
     "distribution": "Quang Binh, Quang Tri, Khanh Hoa, Binh Thuan, Dong Nai, Tay Ninh, Ho Chi Minh, Kien Giang",
     "thumbnail": "https://static.inaturalist.org/photos/386263979/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Lycodon futsingensis": {
     "scientific_name": "Lycodon futsingensis",
@@ -456,7 +556,9 @@
     "distribution": "Vinh Phuc, Bac Kan, Lao Cai, Ha Tinh, Quang Binh",
     "thumbnail": "https://static.inaturalist.org/photos/1171448/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Lycodon meridionalis": {
     "scientific_name": "Lycodon meridionalis",
@@ -465,7 +567,9 @@
     "distribution": "Lao Cai, Ha Giang, Tuyen Quang, Cao Bang, Lang Son, Thai Nguyen, Vinh Phuc, Bac Giang, Hai Duong, Ha Noi, Ninh Binh",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/346657692/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Lycodon rosozonatus": {
     "scientific_name": "Lycodon rosozonatus",
@@ -474,7 +578,9 @@
     "distribution": "Quang Binh, Quang Tri",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/230010909/medium.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Lycodon rufozonatus": {
     "scientific_name": "Lycodon rufozonatus",
@@ -483,7 +589,9 @@
     "distribution": "Tuyen Quang, Vinh Phuc, Ha Tinh, Quang Binh, Quang Tri",
     "thumbnail": "https://static.inaturalist.org/photos/52500/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Lycodon_rufozonatus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Lycodon_rufozonatus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Lycodon chapaensis": {
     "scientific_name": "Lycodon chapaensis",
@@ -492,7 +600,9 @@
     "distribution": "Lao Cai, Bac Kan, Vinh Phuc, Nghe An, Ha Tinh, Quang Binh, Thua Thien Hue",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/185859716/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Lycodon capucinus": {
     "scientific_name": "Lycodon capucinus",
@@ -501,7 +611,9 @@
     "distribution": "Da Nang, Khanh Hoa, Binh Duong, Tay Ninh, Ba Ria Vung Tau, Ho Chi Minh, Kien Giang",
     "thumbnail": "https://static.inaturalist.org/photos/46025119/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Lycodon_capucinus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Lycodon_capucinus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Lycodon fasciatus": {
     "scientific_name": "Lycodon fasciatus",
@@ -510,7 +622,9 @@
     "distribution": "Lai Chau, Lao Cai, Son La, Cao Bang, Vinh Phuc, Hai Duong, Ha Tinh, Quang Binh, Kon Tum",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/88149591/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Lycodon_fasciatus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Lycodon_fasciatus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Lycodon laoensis": {
     "scientific_name": "Lycodon laoensis",
@@ -519,7 +633,9 @@
     "distribution": "Bac Giang, Quang Nam, Lam Dong, Binh Phuoc, Tay Ninh, Dong Nai, Ho Chi Minh",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/22128515/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Lycodon_laoensis"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Lycodon_laoensis",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Lycodon paucifasciatus": {
     "scientific_name": "Lycodon paucifasciatus",
@@ -528,25 +644,31 @@
     "distribution": "Quang Binh, Thua Thien Hue",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/346827082/medium.jpg",
     "conservation_status": "VU",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Lycodon pictus": {
     "scientific_name": "Lycodon pictus",
     "english_name": "Decorated Big-tooth Snake",
     "vietnamese_name": "Rắn khuyết vẽ",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/153611278/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Lycodon ruhstrati": {
     "scientific_name": "Lycodon ruhstrati",
     "english_name": "Ruhstrat's Wolf Snake",
     "vietnamese_name": "Rắn khuyết Đài Loan",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/12885263/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Lycodon_ruhstrati"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Lycodon_ruhstrati",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Lycodon subcinctus": {
     "scientific_name": "Lycodon subcinctus",
@@ -555,7 +677,9 @@
     "distribution": "Lai Chau, Bac Kan, Vinh Phuc, Son La, Ha Noi, Thanh Hoa, Tay Ninh",
     "thumbnail": "https://static.inaturalist.org/photos/323428270/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Lycodon_subcinctus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Lycodon_subcinctus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oligodon annamensis": {
     "scientific_name": "Oligodon annamensis",
@@ -564,7 +688,9 @@
     "distribution": "Lam Dong",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/196669341/medium.jpeg",
     "conservation_status": "DD",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_annamensis"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_annamensis",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oligodon barroni": {
     "scientific_name": "Oligodon barroni",
@@ -573,16 +699,20 @@
     "distribution": "Cao Bang, Hai Duong, Thua Thien Hue, Khanh Hoa, Binh Duong, Dong Nai",
     "thumbnail": "https://static.inaturalist.org/photos/116635123/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_barroni"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_barroni",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oligodon cattienensis": {
     "scientific_name": "Oligodon cattienensis",
     "english_name": "Cattien Kukri Snake",
     "vietnamese_name": "Rắn kiếm Cát Tiên",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/156591042/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_cinereus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_cinereus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oligodon chinensis": {
     "scientific_name": "Oligodon chinensis",
@@ -591,7 +721,9 @@
     "distribution": "Lao Cai, Bac Kan, Lang Son, Vinh Phuc, Quang Ninh, Hai Phong, Hai Duong, Nghe An, Ha Tinh, Quang Binh, Gia Lai",
     "thumbnail": "https://static.inaturalist.org/photos/42305218/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Chinese_kukri_snake"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Chinese_kukri_snake",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oligodon cinereus": {
     "scientific_name": "Oligodon cinereus",
@@ -600,25 +732,31 @@
     "distribution": "Lai Chau, Dien Bien, Bac Kan, Thai Nguyen, Phu Tho, Vinh Phuc, Hai Duong, Ha Noi, Nghe An, Ha Tinh, Quang Tri, Thua Thien Hue, Gia Lai, Dak Lak, Dong Nai, Tay Ninh, Ba Ria Vung Tau, Ho Chi Minh, An Giang, Kien Giang",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/156591042/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_cinereus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_cinereus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oligodon condaoensis": {
     "scientific_name": "Oligodon condaoensis",
     "english_name": "Condao Kukri Snake",
     "vietnamese_name": "Rắn kiếm Côn Đảo",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/486087/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oligodon culaochamensis": {
     "scientific_name": "Oligodon culaochamensis",
     "english_name": "Culaocham Kukri Snake",
     "vietnamese_name": "Rắn kiếm Cù Lao Chàm",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oligodon deuvei": {
     "scientific_name": "Oligodon deuvei",
@@ -627,16 +765,20 @@
     "distribution": "Dong Nai, Ho Chi Minh",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/42478273/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_deuvei"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_deuvei",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oligodon eberhardti": {
     "scientific_name": "Oligodon eberhardti",
-    "english_name": "Eberhardt’s Kukri Snake",
+    "english_name": "Eberhardt's Kukri Snake",
     "vietnamese_name": "Rắn kiếm Ê-bê-hác",
     "distribution": "Lai Chau, Lao Cai, Tuyen Quang, Cao Bang, Bac Kan, Vinh Phuc, Son La, Ha Noi",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/596942/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oligodon fasciolatus": {
     "scientific_name": "Oligodon fasciolatus",
@@ -645,7 +787,9 @@
     "distribution": "Lai Chau, Cao Bang, Vinh Phuc, Hai Duong, Son La, Ha Noi, Nghe An, Ha Tinh, Quang Tri, Da Nang, Gia Lai, Dak Lak, Lam Dong, Dong Nai, Khanh Hoa, Ba Ria Vung Tau, Ho Chi Minh, An Giang, Kien Giang, Ca Mau",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/41408018/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oligodon formosanus": {
     "scientific_name": "Oligodon formosanus",
@@ -654,7 +798,9 @@
     "distribution": "Cao Bang, Vinh Phuc, Ha Noi",
     "thumbnail": "https://static.inaturalist.org/photos/157887410/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_formosanus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_formosanus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oligodon lacroixi": {
     "scientific_name": "Oligodon lacroixi",
@@ -663,7 +809,9 @@
     "distribution": "Lao Cai",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/224601847/medium.jpg",
     "conservation_status": "VU",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oligodon macrurus": {
     "scientific_name": "Oligodon macrurus",
@@ -672,7 +820,9 @@
     "distribution": "Khanh Hoa, Ninh Thuan",
     "thumbnail": "https://static.inaturalist.org/photos/114246/medium.JPG",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oligodon moricei": {
     "scientific_name": "Oligodon moricei",
@@ -681,16 +831,20 @@
     "distribution": "Khanh Hoa",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_moricei"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_moricei",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oligodon nagao": {
     "scientific_name": "Oligodon nagao",
     "english_name": "Nagao Kuri Snake",
     "vietnamese_name": "Rắn kiếm Na-ga-ô",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/236766670/medium.jpeg",
     "conservation_status": "",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_nagao"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Oligodon_nagao",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oligodon ocellatus": {
     "scientific_name": "Oligodon ocellatus",
@@ -699,16 +853,20 @@
     "distribution": "Quang Nam, Quang Ngai, Dak Lak, Lam Dong, Tay Ninh",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/365689439/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oligodon rostralis": {
     "scientific_name": "Oligodon rostralis",
     "english_name": "Long-snouted kukri Snake",
     "vietnamese_name": "Rắn kiếm mõm dài",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oligodon saintgironsi": {
     "scientific_name": "Oligodon saintgironsi",
@@ -717,7 +875,9 @@
     "distribution": "Dong Nai, Ho Chi Minh",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/324974787/medium.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oligodon taeniatus": {
     "scientific_name": "Oligodon taeniatus",
@@ -726,7 +886,9 @@
     "distribution": "Ha Giang, Cao Bang, Thai Nguyen, Vinh Phuc, Hai Duong, Ninh Binh, Nghe An, Quang Binh, Lam Dong, Khanh Hoa, Dong Nai, Tay Ninh, Ba Ria Vung Tau, Ho Chi Minh, Tien Giang, Soc Trang, Kien Giang",
     "thumbnail": "https://static.inaturalist.org/photos/139700731/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Oreocryptophis porphyraceus": {
     "scientific_name": "Oreocryptophis porphyraceus",
@@ -735,7 +897,9 @@
     "distribution": "Lao Cai, Cao Bang, Bac Kan, Lang Son, Thai Nguyen, Vinh Phuc, Son La, Quang Binh",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/239642526/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Oreocryptophis_porphyraceus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Oreocryptophis_porphyraceus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Ptyas carinata": {
     "scientific_name": "Ptyas carinata",
@@ -744,7 +908,9 @@
     "distribution": "Thua Thien Hue, Da Nang, Binh Phuoc",
     "thumbnail": "https://static.inaturalist.org/photos/41880390/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Ptyas_carinata"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Ptyas_carinata",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Ptyas dhumnades": {
     "scientific_name": "Ptyas dhumnades",
@@ -753,7 +919,9 @@
     "distribution": "Vinh Phuc",
     "thumbnail": "https://static.inaturalist.org/photos/21708750/medium.jpeg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Ptyas korros": {
     "scientific_name": "Ptyas korros",
@@ -762,7 +930,9 @@
     "distribution": "Lao Cai, Ha Giang, Cao Bang, Bac Kan, Tuyen Quang, Lang Son, Thai Nguyen, Phu Tho, Vinh Phuc, Quang Ninh, Bac Giang, Bac Ninh, Hai Duong, Son La, Hoa Binh, Ha Noi, Ninh Binh, Thanh Hoa, Nghe An, Ha Tinh, Quang Binh, Quang Tri, Thua Thien Hue, Da Nang, Quang Nam, Kon Tum, Dak Lak, Lam Dong, Binh Dinh, Khanh Hoa, Binh Phuoc, Binh Duong, Dong Nai, Tay Ninh, Ho Chi Minh, Soc Trang, Kien Giang, Ca Mau",
     "thumbnail": "https://static.inaturalist.org/photos/136971386/medium.jpg",
     "conservation_status": "NT",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Ptyas_korros"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Ptyas_korros",
+    "other_name": "ngù thinh (người Tày), ngù sla (người Nùng), ngù xinh (người Thái)",
+    "fun_fact": ""
   },
   "Ptyas major": {
     "scientific_name": "Ptyas major",
@@ -771,7 +941,9 @@
     "distribution": "Lao Cai, Cao Bang, Vinh Phuc, Ha Noi (Ba Vi), Quang Binh",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/599024/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Ptyas mucosa": {
     "scientific_name": "Ptyas mucosa",
@@ -780,7 +952,9 @@
     "distribution": "Dien Bien, Lao Cai, Yen Bai, Cao Bang, Thai Nguyen, Lang Son, Phu Tho, Vinh Phuc, Ha Noi, Son La, Hoa Binh, Ninh Binh, Thanh Hoa, Nghe An, Ha Tinh, Quang Binh, Da Nang, Quang Nam, Dak Lak, Dong Nai, Tay Ninh, Ho Chi Minh, Kien Giang, Ca Mau",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/323553661/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Ptyas_mucosa"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Ptyas_mucosa",
+    "other_name": "Rắn long thừa, rắn hổ hèo, rắn hổ dện (vện), rắn hổ trâu",
+    "fun_fact": ""
   },
   "Ptyas multicinctus": {
     "scientific_name": "Ptyas multicinctus",
@@ -789,7 +963,9 @@
     "distribution": "Lai Chau, Lao Cai, Cao Bang, Bac Kan, Thai Nguyen, Vinh Phuc, Quang Ninh, Hai Duong, Hoa Binh, Ha Noi, Ninh Binh, Ha Tinh, Quang Binh, Quang Tri, Thua Thien Hue, Da Nang, Quang Nam, Kon Tum, Lam Dong",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/48244631/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Ptyas nigromarginata": {
     "scientific_name": "Ptyas nigromarginata",
@@ -798,16 +974,20 @@
     "distribution": "Lang Son, Ha Noi, Kon Tum",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/46241040/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Colubroelaps nguyenvansangi": {
     "scientific_name": "Colubroelaps nguyenvansangi",
-    "english_name": "Nguyenvansang’s Snake",
+    "english_name": "Nguyenvansang's Snake",
     "vietnamese_name": "Rắn Nguyễn Văn Sáng",
     "distribution": "Lam Dong",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/65264584/medium.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Nguyenvansang’s_snake"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nguyenvansang's_snake",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Amphiesma stolatum": {
     "scientific_name": "Amphiesma stolatum",
@@ -816,16 +996,20 @@
     "distribution": "Lao Cai, Yen Bai, Cao Bang, Bac Kan, Lang Son, Tuyen Quang, Thai Nguyen, Phu Tho, Vinh Phuc, Quang Ninh, Hai Phong, Bac Giang, Hai Duong, Bac Ninh, Ha Noi, Son La, Hoa Binh, Ninh Binh, Thanh Hoa, Nghe An, Ha Tinh, Quang Binh, Quang Tri, Thua Thien Hue, Da Nang, Quang Nam, Gia Lai, Binh Phuoc, Binh Duong, Dong Nai, Tay Ninh, Ho Chi Minh",
     "thumbnail": "https://static.inaturalist.org/photos/317939930/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Buff_striped_keelback"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Buff_striped_keelback",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Amphiesmoides ornaticeps": {
     "scientific_name": "Amphiesmoides ornaticeps",
     "english_name": "Werner's Ornate Snake",
     "vietnamese_name": "Rắn hoa Véc-ne",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Fowlea flavipunctata": {
     "scientific_name": "Fowlea flavipunctata",
@@ -834,16 +1018,20 @@
     "distribution": "Entire country",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/108115341/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Yellow-spotted_keelback"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Yellow-spotted_keelback",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hebius andreae": {
     "scientific_name": "Hebius andreae",
-    "english_name": "Andrea’s Keelback",
+    "english_name": "Andrea's Keelback",
     "vietnamese_name": "Rắn sãi A-đờ-rê-a",
     "distribution": "Quang Binh",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hebius annamensis": {
     "scientific_name": "Hebius annamensis",
@@ -852,7 +1040,9 @@
     "distribution": "Da Nang, Kon Tum",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hebius atemporale": {
     "scientific_name": "Hebius atemporale",
@@ -861,7 +1051,9 @@
     "distribution": "Vinh Phuc",
     "thumbnail": "https://static.inaturalist.org/photos/138315749/medium.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hebius bitaeniatus": {
     "scientific_name": "Hebius bitaeniatus",
@@ -870,7 +1062,9 @@
     "distribution": "Lao Cai, Son La",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/139440299/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hebius boulengeri": {
     "scientific_name": "Hebius boulengeri",
@@ -879,7 +1073,9 @@
     "distribution": "Lao Cai, Ha Giang, Bac Kan, Thai Nguyen, Vinh Phuc, Ha Noi, Nghe An, Quang Binh, Quang Tri, Thua Thien Hue, Kon Tum, Lam Dong",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/5843723/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hebius chapaensis": {
     "scientific_name": "Hebius chapaensis",
@@ -888,7 +1084,9 @@
     "distribution": "Lao Cai",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/292465106/medium.jpeg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hebius leucomystax": {
     "scientific_name": "Hebius leucomystax",
@@ -897,7 +1095,9 @@
     "distribution": "Nghe An, Ha Tinh, Quang Binh, Quang Tri, Thua Thien Hue, Da Nang, Kon Tum, Gia Lai",
     "thumbnail": "https://static.inaturalist.org/photos/300326737/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hebius optatum": {
     "scientific_name": "Hebius optatum",
@@ -906,7 +1106,9 @@
     "distribution": "Cao Bang, Bac Kan, Lang Son, Thai Nguyen, Vinh Phuc",
     "thumbnail": "https://static.inaturalist.org/photos/334517503/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hebius popei": {
     "scientific_name": "Hebius popei",
@@ -915,7 +1117,9 @@
     "distribution": "Vinh Phuc",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/107637993/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hebius sauteri": {
     "scientific_name": "Hebius sauteri",
@@ -924,7 +1128,9 @@
     "distribution": "Bac Kan, Lang Son, Vinh Phuc, Ha Noi",
     "thumbnail": "https://static.inaturalist.org/photos/20356836/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Opisthotropis andersonii": {
     "scientific_name": "Opisthotropis andersonii",
@@ -933,25 +1139,31 @@
     "distribution": "Quang Ninh, Hai Phong",
     "thumbnail": "https://static.inaturalist.org/photos/87782409/medium.jpg",
     "conservation_status": "NT",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Opisthotropis cucae": {
     "scientific_name": "Opisthotropis cucae",
     "english_name": "Cuc's Mountain Stream Snake",
     "vietnamese_name": "Rắn trán Cúc",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Opisthotropis durandi": {
     "scientific_name": "Opisthotropis durandi",
     "english_name": "Durand's Mountain Stream Snake",
     "vietnamese_name": "Rắn trán Đuy-răng",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Opisthotropis daovantieni": {
     "scientific_name": "Opisthotropis daovantieni",
@@ -960,16 +1172,20 @@
     "distribution": "Kon Tum, Gia Lai",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "NT",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Opisthotropis haihaensis": {
     "scientific_name": "Opisthotropis haihaensis",
     "english_name": "Haiha Mountain Stream Snake",
     "vietnamese_name": "Rắn trán Hải Hà",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/217578439/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Opisthotropis jacobi": {
     "scientific_name": "Opisthotropis jacobi",
@@ -978,7 +1194,9 @@
     "distribution": "Lao Cai, Tuyen Quang, Cao Bang, Bac Kan, Lang Son, Vinh Phuc",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Opisthotropis lateralis": {
     "scientific_name": "Opisthotropis lateralis",
@@ -987,7 +1205,9 @@
     "distribution": "Cao Bang, Lang Son, Vinh Phuc, Quang Ninh, Bac Giang, Hai Duong, Hoa Binh",
     "thumbnail": "https://static.inaturalist.org/photos/138315781/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Opisthotropis tamdaoensis": {
     "scientific_name": "Opisthotropis tamdaoensis",
@@ -996,25 +1216,31 @@
     "distribution": "Vinh Phuc",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Opisthotropis voquyi": {
     "scientific_name": "Opisthotropis voquyi",
-    "english_name": "Voquy’s Mountain Stream Keelback",
+    "english_name": "Voquy's Mountain Stream Keelback",
     "vietnamese_name": "Rắn trán Võ Quý",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Rhabdophis angeli": {
     "scientific_name": "Rhabdophis angeli",
-    "english_name": "Angel’s Keelback",
+    "english_name": "Angel's Keelback",
     "vietnamese_name": "Rắn hoa cỏ Ăn-ghen",
     "distribution": "Thai Nguyen, Vinh Phuc",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Rhabdophis callichroma": {
     "scientific_name": "Rhabdophis callichroma",
@@ -1023,7 +1249,9 @@
     "distribution": "Vinh Phuc, Ha Noi",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Rhabdophis chrysargos": {
     "scientific_name": "Rhabdophis chrysargos",
@@ -1032,16 +1260,20 @@
     "distribution": "Son La, Hoa Binh, Bac Giang, Thanh Hoa, Nghe An, Ha Tinh, Quang Binh, Quang Tri, Thua Thien Hue, Gia Lai, Lam Dong, Dong Nai",
     "thumbnail": "https://static.inaturalist.org/photos/41191050/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Rhabdophis_chrysargos"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Rhabdophis_chrysargos",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Rhabdophis guangdongensis": {
     "scientific_name": "Rhabdophis guangdongensis",
     "english_name": "Guangdong Keelback",
     "vietnamese_name": "Rắn hoa cỏ Quảng Đông",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/107639914/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Rhabdophis leonardi": {
     "scientific_name": "Rhabdophis leonardi",
@@ -1050,7 +1282,9 @@
     "distribution": "Lao Cai",
     "thumbnail": "https://static.inaturalist.org/photos/786736/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Rhabdophis helleri": {
     "scientific_name": "Rhabdophis helleri",
@@ -1059,7 +1293,9 @@
     "distribution": "Lao Cai, Yen Bai, Cao Bang, Bac Kan, Phu Tho, Vinh Phuc, Lang Son, Quang Ninh, Bac Giang, Bac Ninh, Hai Duong, Son La, Hoa Binh, Ha Noi, Thanh Hoa",
     "thumbnail": "https://static.inaturalist.org/photos/189161251/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Rhabdophis nigrocinctus": {
     "scientific_name": "Rhabdophis nigrocinctus",
@@ -1068,7 +1304,9 @@
     "distribution": "Dien Bien, Son La, Nghe An",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/5677621/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Rhabdophis_nigrocinctus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Rhabdophis_nigrocinctus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Rhabdophis siamensis": {
     "scientific_name": "Rhabdophis siamensis",
@@ -1077,7 +1315,20 @@
     "distribution": "Nghe An, Ha Tinh, Quang Binh, Quang Tri, Thua Thien Hue, Da Nang, Quang Nam, Kon Tum, Gia Lai, Dak Lak, Lam Dong, Binh Phuoc, Dong Nai, Tay Ninh, Ho Chi Minh, Kien Giang",
     "thumbnail": "https://static.inaturalist.org/photos/324734486/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
+  },
+  "Rhabdophis subminiatus": {
+    "scientific_name": "Rhabdophis subminiatus",
+    "english_name": "Red-necked keelback",
+    "vietnamese_name": "Rắn hoa cỏ cổ đỏ",
+    "distribution": "",
+    "thumbnail": "https://static.inaturalist.org/photos/324734486/medium.jpg",
+    "conservation_status": "LC",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Rhabdophis_subminiatus",
+    "other_name": "Rắn cổ trĩ đỏ, rắn nước cổ đỏ, rắn cổ bẹt",
+    "fun_fact": ""
   },
   "Trimerodytes aequifasciatus": {
     "scientific_name": "Trimerodytes aequifasciatus",
@@ -1086,16 +1337,20 @@
     "distribution": "Lao Cai, Ha Giang, Cao Bang, Lang Son, Vinh Phuc, Bac Giang, Nghe An, Ha Tinh",
     "thumbnail": "https://static.inaturalist.org/photos/138315800/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Trimerodytes balteatus": {
     "scientific_name": "Trimerodytes balteatus",
     "english_name": "Banded Annulate Keelback",
     "vietnamese_name": "Rắn hoa cân Hải Nam",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/16970001/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Trimerodytes percarinatus": {
     "scientific_name": "Trimerodytes percarinatus",
@@ -1104,16 +1359,20 @@
     "distribution": "Lao Cai, Ha Giang, Cao Bang, Bac Kan, Lang Son, Thai Nguyen, Phu Tho, Vinh Phuc, Quang Ninh, Bac Giang, Bac Ninh, Son La, Hoa Binh, Ha Tinh, Quang Binh, Thua Thien Hue, Kon Tum, Gia Lai, Dong Nai",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/71029720/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Trimerodytes_percarinatus"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Trimerodytes_percarinatus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Trimerodytes yunnanensis": {
     "scientific_name": "Trimerodytes yunnanensis",
     "english_name": "Yunnan Annulate Keelback",
     "vietnamese_name": "Rắn hoa cân Vân Nam",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/44894058/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Xenochrophis trianguligerus": {
     "scientific_name": "Xenochrophis trianguligerus",
@@ -1122,16 +1381,20 @@
     "distribution": "Vinh Phuc, Quang Nam",
     "thumbnail": "https://static.inaturalist.org/photos/42642426/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Triangle_keelback"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Triangle_keelback",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Plagiopholis delacouri": {
     "scientific_name": "Plagiopholis delacouri",
-    "english_name": "Delacour’s Mountain Snake",
+    "english_name": "Delacour's Mountain Snake",
     "vietnamese_name": "Rắn hổ núi Đê-la-cua",
     "distribution": "Lao Cai, Vinh Phuc",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Plagiopholis nuchalis": {
     "scientific_name": "Plagiopholis nuchalis",
@@ -1140,7 +1403,9 @@
     "distribution": "Lai Chau, Dien Bien, Lao Cai, Hoa Binh, Nghe An",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/171063094/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Plagiopholis_nuchalis"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Plagiopholis_nuchalis",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Plagiopholis styani": {
     "scientific_name": "Plagiopholis styani",
@@ -1149,7 +1414,9 @@
     "distribution": "Lao Cai, Lang Son, Vinh Phuc",
     "thumbnail": "https://static.inaturalist.org/photos/163711636/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Plagiopholis_styani"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Plagiopholis_styani",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Pseudoxenodon bambusicola": {
     "scientific_name": "Pseudoxenodon bambusicola",
@@ -1158,7 +1425,9 @@
     "distribution": "Lao Cai, Ha Giang, Tuyen Quang, Cao Bang, Bac Kan, Thai Nguyen, Phu Tho, Vinh Phuc, Bac Giang, Ha Noi",
     "thumbnail": "https://static.inaturalist.org/photos/128518777/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Pseudoxenodon karlschmidti": {
     "scientific_name": "Pseudoxenodon karlschmidti",
@@ -1167,7 +1436,9 @@
     "distribution": "Ha Giang, Vinh Phuc",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/107573595/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Pseudoxenodon macrops": {
     "scientific_name": "Pseudoxenodon macrops",
@@ -1176,7 +1447,9 @@
     "distribution": "Lai Chau, Lao Cai, Vinh Phuc, Nghe An, Ha Tinh, Quang Binh, Da Nang, Kon Tum, Lam Dong",
     "thumbnail": "https://static.inaturalist.org/photos/13006971/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Pseudoxenodon_macrops"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Pseudoxenodon_macrops",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Sibynophis chinensis": {
     "scientific_name": "Sibynophis chinensis",
@@ -1185,7 +1458,9 @@
     "distribution": "Lao Cai, Cao Bang, Bac Kan, Vinh Phuc, Hoa Binh, Ninh Binh, Quang Tri, Gia Lai",
     "thumbnail": "https://static.inaturalist.org/photos/2032964/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Sibynophis collaris": {
     "scientific_name": "Sibynophis collaris",
@@ -1194,7 +1469,9 @@
     "distribution": "Dien Bien, Son La, Ninh Binh, Bac Kan, Nghe An, Ha Tinh, Quang Binh, Quang Tri, Thua Thien Hue, Gia Lai, Lam Dong, Dong Nai",
     "thumbnail": "https://static.inaturalist.org/photos/56837157/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Sibynophis_collaris"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Sibynophis_collaris",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Sibynophis melanocephalus": {
     "scientific_name": "Sibynophis melanocephalus",
@@ -1203,16 +1480,20 @@
     "distribution": "Gia Lai",
     "thumbnail": "https://static.inaturalist.org/photos/90270259/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Cylindrophis jodiae": {
     "scientific_name": "Cylindrophis jodiae",
-    "english_name": "Jodi’s Pipe-Snake",
+    "english_name": "Jodi's Pipe-Snake",
     "vietnamese_name": "Rắn trun",
     "distribution": "Vinh Phuc*, Quang Binh, Quang Tri, Thua Thien Hue, Da Nang, Quang Nam, Dong Nai, Tay Ninh, Ba Ria Vung Tau, Ho Chi Minh, An Giang, Kien Giang, Can Tho, Ca Mau (Nguyen et al 2009, Amarasinghe et al 2015), Ba Ria Vung Tau (Nguyen Ngoc Sang et al 2016), Binh Phuoc (Nguyen Quang Truong et al 2014)",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/39013076/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cylindrophis_jodiae",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Bungarus candidus": {
     "scientific_name": "Bungarus candidus",
@@ -1221,7 +1502,9 @@
     "distribution": "Hoa Binh, Ha Tinh, Quang Binh, Quang Tri, Thua Thien Hue, Quang Nam, Phu Yen, Ninh Thuan, Kon Tum, Gia Lai, Dak Lak, Dak Nong, Lam Dong, Binh Phuoc, Dong Nai, Tay Ninh",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/30260602/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Many-banded_krait"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Many-banded_krait",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Bungarus fasciatus": {
     "scientific_name": "Bungarus fasciatus",
@@ -1230,7 +1513,9 @@
     "distribution": "Lao Cai, Yen Bai, Cao Bang, Bac Kan, Lang Son, Thai Nguyen, Vinh Phuc, Quang Ninh, Bac Giang, Bac Ninh, Hai Duong, Ha Noi, Thai Binh, Son La, Hoa Binh, Ninh Binh, Thanh Hoa, Nghe An, Ha Tinh, Quang Binh, Quang Tri, Thua Thien Hue, Da Nang, Quang Nam, Gia Lai, Dak Lak, Lam Dong, Binh Phuoc, Tay Ninh, Dong Nai, Ho Chi Minh, Dong Nai, Tien Giang, Kien Giang, Ca Mau",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/81952045/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Banded_krait"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Banded_krait",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Bungarus flaviceps": {
     "scientific_name": "Bungarus flaviceps",
@@ -1239,7 +1524,9 @@
     "distribution": "Lam Dong, Binh Thuan, Dong Nai, Ba Ria Vung Tau,",
     "thumbnail": "https://static.inaturalist.org/photos/106342221/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Red-headed_krait"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Red-headed_krait",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Bungarus multicinctus": {
     "scientific_name": "Bungarus multicinctus",
@@ -1248,7 +1535,9 @@
     "distribution": "Cao Bang, Bac Kan, Lang Son, Hai Phong, Vinh Phuc, Bac Giang, Hai Duong, Ha Noi, Son La, Hoa Binh, Thanh Hoa, Nghe An, Ha Tinh, Thua Thien Hue",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/30260602/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Many-banded_krait"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Many-banded_krait",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Bungarus slowinskii": {
     "scientific_name": "Bungarus slowinskii",
@@ -1257,7 +1546,9 @@
     "distribution": "Lao Cai, Yen Bai, Quang Tri, Quang Nam",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/20118581/medium.jpeg",
     "conservation_status": "VU",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Red_River_krait"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Red_River_krait",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Naja atra": {
     "scientific_name": "Naja atra",
@@ -1266,7 +1557,9 @@
     "distribution": "Lao Cai, Tuyen Quang, Cao Bang, Bac Kan, Thai Nguyen, Lang Son, Bac Giang, Phu Tho, Vinh Phuc, Quang Ninh, Hai Duong, Thai Binh, Son La, Hoa Binh, Ha Noi, Ninh Binh, Thanh Hoa, Nghe An, Ha Tinh, Quang Binh, Quang Tri, Thua Thien Hue",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/32005491/medium.jpg",
     "conservation_status": "VU",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Chinese_cobra"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Chinese_cobra",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Naja kaouthia": {
     "scientific_name": "Naja kaouthia",
@@ -1275,7 +1568,9 @@
     "distribution": "Quang Tri, Thua Thien Hue, Lam Dong, Ho Chi Minh, Dak Lak, Kien Giang",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/32005491/medium.jpg",
     "conservation_status": "VU",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Chinese_cobra"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Chinese_cobra",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Naja siamensis": {
     "scientific_name": "Naja siamensis",
@@ -1284,7 +1579,9 @@
     "distribution": "Kon Tum, Gia Lai, Dong Nai, Binh Phuoc, Tay Ninh, Ho Chi Minh, Kien Giang",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/21257971/medium.jpeg",
     "conservation_status": "VU",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Indochinese_spitting_cobra"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Indochinese_spitting_cobra",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Ophiophagus hannah": {
     "scientific_name": "Ophiophagus hannah",
@@ -1293,7 +1590,9 @@
     "distribution": "Lao Cai, Cao Bang, Bac Kan, Thai Nguyen, Phu Tho, Vinh Phuc, Lang Son, Quang Ninh, Bac Giang, Hai Duong, Ha Nam, Nam Dinh, Son La, Hoa Binh, Ha Noi, Ninh Binh, Thanh Hoa, Nghe An, Ha Tinh, Quang Binh, Quang Tri, Thua Thien Hue, Quang Nam, Kon Tum, Dak Lak, Lam Dong, Phu Yen, Ninh Thuan, Binh Phuoc, Dong Nai, Tay Ninh, Ba Ria Vung Tau",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/266975128/medium.jpg",
     "conservation_status": "VU",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/King_cobra"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/King_cobra",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Calliophis intestinalis": {
     "scientific_name": "Calliophis intestinalis",
@@ -1302,7 +1601,9 @@
     "distribution": "Gia Lai, Lam Dong",
     "thumbnail": "https://static.inaturalist.org/photos/176874627/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Calliophis_intestinalis"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Calliophis_intestinalis",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Calliophis maculiceps": {
     "scientific_name": "Calliophis maculiceps",
@@ -1311,7 +1612,9 @@
     "distribution": "Gia Lai, Dak Lak, Binh Duong, Dong Nai, Tay Ninh, Ba Ria Vung Tau, Ho Chi Minh, Kien Giang",
     "thumbnail": "https://static.inaturalist.org/photos/74566076/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Calliophis_maculiceps"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Calliophis_maculiceps",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Sinomicrurus annularis": {
     "scientific_name": "Sinomicrurus annularis",
@@ -1320,7 +1623,9 @@
     "distribution": "?",
     "thumbnail": "https://static.inaturalist.org/photos/220983158/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Sinomicrurus houi": {
     "scientific_name": "Sinomicrurus houi",
@@ -1329,7 +1634,9 @@
     "distribution": "Lai Chau, Cao Bang, Lang Son, Vinh Phuc, Hai Duong, Son La",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/107582941/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Sinomicrurus_kelloggi"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sinomicrurus_kelloggi",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Sinomicrurus peinani": {
     "scientific_name": "Sinomicrurus peinani",
@@ -1338,7 +1645,9 @@
     "distribution": "nan",
     "thumbnail": "https://static.inaturalist.org/photos/120591536/medium.jpeg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Aipysurus eydouxii": {
     "scientific_name": "Aipysurus eydouxii",
@@ -1347,7 +1656,9 @@
     "distribution": "Binh Thuan, Ba Ria-Vung Tau, Ca Mau, Kien Giang",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/171163217/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Aipysurus_eydouxii"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Aipysurus_eydouxii",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Emydocephalus annulatus": {
     "scientific_name": "Emydocephalus annulatus",
@@ -1356,7 +1667,9 @@
     "distribution": "Dong Nai",
     "thumbnail": "https://static.inaturalist.org/photos/207814720/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Emydocephalus_annulatus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Emydocephalus_annulatus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis atriceps": {
     "scientific_name": "Hydrophis atriceps",
@@ -1365,7 +1678,9 @@
     "distribution": "Binh Thuan, Ba Ria-Vung Tau, Ca Mau",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Black-headed_sea_snake"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Black-headed_sea_snake",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis belcheri": {
     "scientific_name": "Hydrophis belcheri",
@@ -1374,7 +1689,9 @@
     "distribution": "Binh Thuan, Ba Ria-Vung Tau",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/1461087/medium.png",
     "conservation_status": "DD",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_belcheri"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_belcheri",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis brookii": {
     "scientific_name": "Hydrophis brookii",
@@ -1383,7 +1700,9 @@
     "distribution": "Binh Thuan",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/74605845/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis caerulescens": {
     "scientific_name": "Hydrophis caerulescens",
@@ -1392,7 +1711,9 @@
     "distribution": "Vinh Bac Bo, cua song Cuu Long",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/109001410/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_caerulescens"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_caerulescens",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis curtus": {
     "scientific_name": "Hydrophis curtus",
@@ -1401,7 +1722,9 @@
     "distribution": "Vinh Bac Bo, Binh Thuan, Ba Ria-Vung Tau, Ca Mau, Kien Giang",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/85427874/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis cyanocinctus": {
     "scientific_name": "Hydrophis cyanocinctus",
@@ -1410,7 +1733,9 @@
     "distribution": "Vinh Bac Bo, Binh Thuan, Ba Ria-Vung Tau, Ca Mau, Kien Giang",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/85428907/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_cyanocinctus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_cyanocinctus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis gracilis": {
     "scientific_name": "Hydrophis gracilis",
@@ -1419,7 +1744,9 @@
     "distribution": "Vinh Bac Bo, Binh Thuan",
     "thumbnail": "https://static.inaturalist.org/photos/40544481/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis jerdonii": {
     "scientific_name": "Hydrophis jerdonii",
@@ -1428,7 +1755,9 @@
     "distribution": "Binh Thuan, Ba Ria-Vung Tau",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/658298/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Jerdon's_sea_snake"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jerdon's_sea_snake",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis klossi": {
     "scientific_name": "Hydrophis klossi",
@@ -1437,7 +1766,9 @@
     "distribution": "Binh Thuan, Ba Ria-Vung Tau",
     "thumbnail": "https://static.inaturalist.org/photos/421842155/medium.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_klossi"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_klossi",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis lamberti": {
     "scientific_name": "Hydrophis lamberti",
@@ -1446,7 +1777,9 @@
     "distribution": "Vinh Bac Bo, Binh Thuan, Ba Ria-Vung Tau, Ca Mau, Kien Giang",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/63668789/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Lambert's_sea_snake"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lambert's_sea_snake",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis melanocephalus": {
     "scientific_name": "Hydrophis melanocephalus",
@@ -1455,7 +1788,9 @@
     "distribution": "Vinh Bac Bo, Binh Thuan, Ba Ria-Vung Tau, Ca Mau, Kien Giang",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/104336187/medium.jpeg",
     "conservation_status": "DD",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_melanocephalus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_melanocephalus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis ornatus": {
     "scientific_name": "Hydrophis ornatus",
@@ -1464,7 +1799,9 @@
     "distribution": "Vinh Bac Bo, Binh Thuan, Ba Ria-Vung Tau, Ca Mau, Kien Giang",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/177977507/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_ornatus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_ornatus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis pachycercos": {
     "scientific_name": "Hydrophis pachycercos",
@@ -1473,7 +1810,9 @@
     "distribution": "Binh Thuan",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis parviceps": {
     "scientific_name": "Hydrophis parviceps",
@@ -1482,7 +1821,9 @@
     "distribution": "Binh Thuan, Ba Ria-Vung Tau",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Smith's_small-headed_sea_snake"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Smith's_small-headed_sea_snake",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis peronii": {
     "scientific_name": "Hydrophis peronii",
@@ -1491,7 +1832,9 @@
     "distribution": "Vinh Bac Bo, Binh Thuan, Ba Ria-Vung Tau, Ca Mau, Kien Giang",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/402339395/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis platurus": {
     "scientific_name": "Hydrophis platurus",
@@ -1500,7 +1843,9 @@
     "distribution": "Vinh Bac Bo, Kien Giang",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/67270529/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-bellied_sea_snake"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-bellied_sea_snake",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis schistosus": {
     "scientific_name": "Hydrophis schistosus",
@@ -1509,7 +1854,9 @@
     "distribution": "Binh Thuan",
     "thumbnail": "https://static.inaturalist.org/photos/21708893/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Enhydrina_schistosa"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Enhydrina_schistosa",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis spiralis": {
     "scientific_name": "Hydrophis spiralis",
@@ -1518,7 +1865,9 @@
     "distribution": "Vinh Bac Bo",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/85428616/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_spiralis"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_spiralis",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis stokesii": {
     "scientific_name": "Hydrophis stokesii",
@@ -1527,7 +1876,9 @@
     "distribution": "Binh Thuan, Ba Ria-Vung Tau",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/317752559/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis torquatus": {
     "scientific_name": "Hydrophis torquatus",
@@ -1536,7 +1887,9 @@
     "distribution": "Binh Thuan",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hydrophis viperinus": {
     "scientific_name": "Hydrophis viperinus",
@@ -1545,7 +1898,9 @@
     "distribution": "Vinh Bac Bo, Binh Thuan, Ba Ria-Vung Tau, Ca Mau, Kien Giang",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/85429135/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_viperinus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Hydrophis_viperinus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Kolpophis annandalei": {
     "scientific_name": "Kolpophis annandalei",
@@ -1554,7 +1909,9 @@
     "distribution": "Binh Thuan",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Hydrophis_annandalei"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hydrophis_annandalei",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Thalassophis anomalus": {
     "scientific_name": "Thalassophis anomalus",
@@ -1563,7 +1920,9 @@
     "distribution": "Unkown",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/658296/medium.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Hydrophis_anomalus"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hydrophis_anomalus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Laticauda colubrina": {
     "scientific_name": "Laticauda colubrina",
@@ -1572,7 +1931,9 @@
     "distribution": "Khanh Hoa, Binh Thuan",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/67292178/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-lipped_sea_krait"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-lipped_sea_krait",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Cerberus schneiderii": {
     "scientific_name": "Cerberus schneiderii",
@@ -1581,7 +1942,9 @@
     "distribution": "Khanh Hoa, Ba Ria Vung Tau, Ho Chi Minh, Kien Giang, Ca Mau",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/14029613/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Enhydris enhydris": {
     "scientific_name": "Enhydris enhydris",
@@ -1590,7 +1953,9 @@
     "distribution": "Phu Yen, Khanh Hoa, Dong Nai, Tay Ninh, Ba Ria Vung Tau, Long An, Ho Chi Minh, Can Tho, Soc Trang, Kien Giang, Ca Mau",
     "thumbnail": "https://static.inaturalist.org/photos/71052/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Corallus_hortulana"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Rainbow_water_snake",
+    "other_name": "",
+    "fun_fact": "Gọi là rắn bông súng do chúng thường di chuyển trên lá súng."
   },
   "Enhydris innominata": {
     "scientific_name": "Enhydris innominata",
@@ -1599,7 +1964,9 @@
     "distribution": "Tay Ninh, Kien Giang",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/28131150/medium.jpg",
     "conservation_status": "VU",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Enhydris subtaeniata": {
     "scientific_name": "Enhydris subtaeniata",
@@ -1608,7 +1975,9 @@
     "distribution": "Kon Tum, Tay Ninh, Ho Chi Minh, Soc Trang, Kien Giang, Ca Mau",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/89211025/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Erpeton tentaculatum": {
     "scientific_name": "Erpeton tentaculatum",
@@ -1617,7 +1986,9 @@
     "distribution": "Binh Duong, Tay Ninh, Long An, Kien Giang",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/335960148/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Erpeton_tentaculatum"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Erpeton_tentaculatum",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Fordonia leucobalia": {
     "scientific_name": "Fordonia leucobalia",
@@ -1626,25 +1997,31 @@
     "distribution": "Soc Trang, Ca Mau",
     "thumbnail": "https://static.inaturalist.org/photos/388838072/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Fordonia_leucobalia"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Fordonia_leucobalia",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Homalopsis mereljcoxi": {
     "scientific_name": "Homalopsis mereljcoxi",
-    "english_name": "Jack’s Water Snake",
+    "english_name": "Jack's Water Snake",
     "vietnamese_name": "Rầm ri cá",
     "distribution": "Quang Tri, Kon Tum, Binh Dinh, Binh Phuoc, Dong Nai, Tay Ninh, Ba Ria Vung Tau, Ho Chi Minh, Soc Trang, Ca Mau, Can Tho, Ninh Thuan, Kien Giang",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/21257835/medium.jpeg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Hypsiscopus plumbea": {
     "scientific_name": "Hypsiscopus plumbea",
-    "english_name": "Boie’s Mud Snake",
+    "english_name": "Boie's Mud Snake",
     "vietnamese_name": "Rắn bồng chì",
     "distribution": "Entire country",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/60444/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Rice_paddy_snake"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Rice_paddy_snake",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Myrrophis bennettii": {
     "scientific_name": "Myrrophis bennettii",
@@ -1653,7 +2030,9 @@
     "distribution": "Quang Ninh",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/108201921/medium.jpeg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Myrrophis chinensis": {
     "scientific_name": "Myrrophis chinensis",
@@ -1662,16 +2041,20 @@
     "distribution": "Thai Nguyen, Vinh Phuc, Bac Giang, Hai Duong, Ha Noi, Son La, Hoa Binh, Thanh Hoa, Nghe An, Ha Tinh, Dak Lak, Dak Nong",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/148243733/medium.jpg",
     "conservation_status": "EN",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Chinese_water_snake"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Chinese_water_snake",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Subsessor bocourti": {
     "scientific_name": "Subsessor bocourti",
-    "english_name": "Bocourt’s Mud Snake",
+    "english_name": "Bocourt's Mud Snake",
     "vietnamese_name": "Rắn bồng voi",
     "distribution": "Binh Duong, Dong Nai, Tay Ninh, Ho Chi Minh, Kien Giang, Can Tho, Soc Trang, Kien Giang, Ca Mau",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/103705161/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Subsessor"
+    "wikipedia_url": "https://vi.wikipedia.org/wiki/Rắn_ri_voi",
+    "other_name": "Rắn ri voi, rắn ri tượng",
+    "fun_fact": ""
   },
   "Psammodynastes pulverulentus": {
     "scientific_name": "Psammodynastes pulverulentus",
@@ -1680,7 +2063,9 @@
     "distribution": "Bac Kan, Thai Nguyen, Vinh Phuc, Quang Ninh, Hai Phong, Hai Duong, Son La, Hoa Binh, Thanh Hoa, Nghe An, Ha Tinh, Quang Binh, Thua Thien Hue, Gia Lai, Dak Lak, Lam Dong, Phu Yen, Khanh Hoa, Dong Nai, Tay Ninh, Ho Chi Minh",
     "thumbnail": "https://static.inaturalist.org/photos/2381652/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Psammodynastes_pulverulentus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Psammodynastes_pulverulentus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Psammophis indochinensis": {
     "scientific_name": "Psammophis indochinensis",
@@ -1689,16 +2074,20 @@
     "distribution": "Ninh Thuan",
     "thumbnail": "https://static.inaturalist.org/photos/161675837/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Psammophis_indochinensis"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Psammophis_indochinensis",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Pareas abros": {
     "scientific_name": "Pareas abros",
     "english_name": "Cute Slug-eating Snake",
     "vietnamese_name": "Rắn ăn sên dễ thương",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Pareas berdmorei": {
     "scientific_name": "Pareas berdmorei",
@@ -1707,34 +2096,42 @@
     "distribution": "Son La, Vinh Phuc, Quang Binh, Quang Tri, Quang Nam, Gia Lai, Dak Lak, Lam Dong, Dong Nai, Tay Ninh",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/166752996/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Pareas kuznetsovorum": {
     "scientific_name": "Pareas kuznetsovorum",
     "english_name": "Kuznetsov's Slug-eating Snake",
     "vietnamese_name": "Rắn ăn sên Ku-nét-sốp",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Pareas hamptoni": {
     "scientific_name": "Pareas hamptoni",
     "english_name": "Hampton's Slug-eating Snake",
     "vietnamese_name": "Rắn ăn sên Ham-tơn",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.inaturalist.org/photos/60412639/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Pareas_hamptoni"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Pareas_hamptoni",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Pareas formosensis": {
     "scientific_name": "Pareas formosensis",
     "english_name": "Taiwan Slug-eating Snake",
     "vietnamese_name": "Rắn ăn sên Đài Loan",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/70092472/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Formosa_slug_snake"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Formosa_slug_snake",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Pareas macularius": {
     "scientific_name": "Pareas macularius",
@@ -1743,7 +2140,9 @@
     "distribution": "Lai Chau, Bac Kan, Vinh Phuc, Hai Duong, Hoa Binh, Nghe An, Quang Binh",
     "thumbnail": "https://static.inaturalist.org/photos/118903564/medium.jpeg",
     "conservation_status": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Pareas_macularius"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pareas_macularius",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Pareas margaritophorus": {
     "scientific_name": "Pareas margaritophorus",
@@ -1752,7 +2151,9 @@
     "distribution": "Vinh Phuc, Hai Duong, Hoa Binh, Ha Noi, Ninh Binh, Ha Tinh, Quang Binh, Quang Tri, Gia Lai, Lam Dong, Tay Ninh, Ho Chi Minh, Kien Giang",
     "thumbnail": "https://static.inaturalist.org/photos/200675940/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Mountain_slug_snake"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mountain_slug_snake",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Pareas monticola": {
     "scientific_name": "Pareas monticola",
@@ -1761,16 +2162,20 @@
     "distribution": "Lao Cai",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/178312526/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Common_slug_snake"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Common_slug_snake",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Pareas temporalis": {
     "scientific_name": "Pareas temporalis",
     "english_name": "Dilinh Slug-eating Snake",
     "vietnamese_name": "Rắn ăn sên Di Linh",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/203155781/medium.jpeg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Malayopython reticulatus": {
     "scientific_name": "Malayopython reticulatus",
@@ -1779,7 +2184,9 @@
     "distribution": "Ha Tinh, Quang Binh, Thua Thien Hue, Da Nang, Quang Nam, Kon Tum, Gia Lai, Dak Lak, Binh Dinh, Khanh Hoa, Binh Phuoc, Binh Phuoc, Dong Nai, Tay Ninh, Ba Ria Vung Tau, Tay Ninh, Ho Chi Minh, Long An, Kien Giang, Ca Mau",
     "thumbnail": "https://static.inaturalist.org/photos/107708381/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Reticulated_python"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Reticulated_python",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Python bivittatus": {
     "scientific_name": "Python bivittatus",
@@ -1788,25 +2195,31 @@
     "distribution": "Lai Chau, Lao Cai, Yen Bai, Bac Kan, Lang Son, Thai Nguyen, Phu Tho, Vinh Phuc, Quang Ninh, Bac Giang, Hai Duong, Son La, Hoa Binh, Ninh Binh, Thanh Hoa, Nghe An, Ha Tinh, Quang Binh, Quang Tri, Thua Thien Hue, Da Nang, Quang Nam, Kon Tum, Gia Lai, Lam Dong, Khanh Hoa, Binh Phuoc, Dong Nai, Tay Ninh, Ba Ria Vung Tau, Ho Chi Minh, Kien Giang, Can Tho, Ca Mau",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/56087430/medium.jpeg",
     "conservation_status": "VU",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Burmese_python"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Burmese_python",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Azemiops feae": {
     "scientific_name": "Azemiops feae",
     "english_name": "Black-headed Fea's Viper",
     "vietnamese_name": "Rắn lục đầu bạc",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.inaturalist.org/photos/112337981/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Azemiops"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Azemiops",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Azemiops kharini": {
     "scientific_name": "Azemiops kharini",
     "english_name": "White-headed Fea's Vipe",
     "vietnamese_name": "Rắn lục đầu bạc Kha-rin",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/289126070/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Calloselasma rhodostoma": {
     "scientific_name": "Calloselasma rhodostoma",
@@ -1815,7 +2228,9 @@
     "distribution": "Gia Lai, Ninh Thuan, Binh Phuoc, Binh Duong, Ba Ria Vung Tau, Dong Nai, Tay Ninh, An Giang",
     "thumbnail": "https://static.inaturalist.org/photos/386262921/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Calloselasma"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Calloselasma",
+    "other_name": "Rắn lục nưa, rắn cà tên, rắn cà tênh, rắn lục Malaysia",
+    "fun_fact": ""
   },
   "Deinagkistrodon acutus": {
     "scientific_name": "Deinagkistrodon acutus",
@@ -1824,7 +2239,9 @@
     "distribution": "Lai Chau, Lao Cai, Cao Bang, Lang Son, Vinh Phuc",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/15874/medium.jpg",
     "conservation_status": "",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Deinagkistrodon"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Deinagkistrodon",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Ovophis monticola": {
     "scientific_name": "Ovophis monticola",
@@ -1833,7 +2250,9 @@
     "distribution": "Lao Cai, Lang Son, Vinh Phuc, Ha Noi, Quang Tri, Da Nang, Kon Tum, Dak Lak, Lam Dong",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/351475733/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Ovophis tonkinensis": {
     "scientific_name": "Ovophis tonkinensis",
@@ -1842,7 +2261,9 @@
     "distribution": "Lai Chau, Lao Cai, Ha Giang, Cao Bang, Bac Kan, Lang Son, Quang Ninh, Vinh Phuc",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/245965059/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Ovophis_monticola"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Ovophis_monticola",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Protobothrops cornutus": {
     "scientific_name": "Protobothrops cornutus",
@@ -1851,25 +2272,31 @@
     "distribution": "Lao Cai, Lang Son, Ha Giang, Quang Binh, Thua Thien Hue",
     "thumbnail": "https://static.inaturalist.org/photos/4124216/medium.jpg",
     "conservation_status": "NT",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_cornutus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_cornutus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Protobothrops jerdonii": {
     "scientific_name": "Protobothrops jerdonii",
-    "english_name": "Jerdon’s Pitviper",
+    "english_name": "Jerdon's Pitviper",
     "vietnamese_name": "Rắn lục Giéc-đôn",
     "distribution": "Lao Cai",
     "thumbnail": "https://static.inaturalist.org/photos/325677670/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_jerdonii"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_jerdonii",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Protobothrops maolanensis": {
     "scientific_name": "Protobothrops maolanensis",
     "english_name": "Maolan Pitviper",
     "vietnamese_name": "Rắn lục Mạo Lan",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/306055043/medium.jpeg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Protobothrops mucrosquamatus": {
     "scientific_name": "Protobothrops mucrosquamatus",
@@ -1878,7 +2305,9 @@
     "distribution": "Lao Cai, Ha Giang, Cao Bang, Bac Kan, Lang Son, Thai Nguyen, Vinh Phuc, Quang Ninh, Hai Phong, Hai Duong, Ha Noi, Ninh Binh, Nghe An, Ha Tinh, Quang Tri, Thua Thien Hue, Kon Tum, Gia Lai; Son La (Pham Van Anh et al 2020)",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/242135004/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_mucrosquamatus"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_mucrosquamatus",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Protobothrops sieversorum": {
     "scientific_name": "Protobothrops sieversorum",
@@ -1887,7 +2316,9 @@
     "distribution": "Quang Binh",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/104012461/medium.jpg",
     "conservation_status": "EN",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Protobothrops_sieversorum"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Protobothrops_sieversorum",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Protobothrops trungkhanhensis": {
     "scientific_name": "Protobothrops trungkhanhensis",
@@ -1896,7 +2327,9 @@
     "distribution": "Cao Bang",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/200489192/medium.jpeg",
     "conservation_status": "EN",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Trimeresurus albolabris": {
     "scientific_name": "Trimeresurus albolabris",
@@ -1905,34 +2338,42 @@
     "distribution": "Lao Cai, Cao Bang, Bac Kan, Thai Nguyen, Vinh Phuc, Lang Son, Bac Giang, Hai Duong, Son La, Hoa Binh, Ha Noi, Thanh Hoa, Nghe An, Ha Tinh, Quang Binh, Quang Tri, Thua Thien Hue, Da Nang, Quang Nam, Gia Lai, Dak Lak, Lam Dong, Khanh Hoa, Binh Phuoc, Dong Nai, Tay Ninh, Kien Giang, Ca Mau",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/48975775/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_albolabris"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_albolabris",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Trimeresurus cardamomensis": {
     "scientific_name": "Trimeresurus cardamomensis",
     "english_name": "Cardamom Pitviper",
     "vietnamese_name": "Rắn lục Ca-đa-mon",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.inaturalist.org/photos/145777577/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Trimeresurus guoi": {
     "scientific_name": "Trimeresurus guoi",
     "english_name": "Guo's Pitviper",
     "vietnamese_name": "Rắn lục Điền Nam",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.inaturalist.org/photos/118512252/medium.jpeg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Trimeresurus gumprechti": {
     "scientific_name": "Trimeresurus gumprechti",
-    "english_name": "Gumprecht’s Pitviper",
+    "english_name": "Gumprecht's Pitviper",
     "vietnamese_name": "Rắn lục Gum-pờ-rét",
     "distribution": "Lai Chau, Lao Cai",
     "thumbnail": "https://static.inaturalist.org/photos/30518428/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_gumprechti"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_gumprechti",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Trimeresurus honsonensis": {
     "scientific_name": "Trimeresurus honsonensis",
@@ -1941,16 +2382,20 @@
     "distribution": "Kien Giang",
     "thumbnail": "https://static.inaturalist.org/photos/291693210/medium.jpg",
     "conservation_status": "VU",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Trimeresurus rubeus": {
     "scientific_name": "Trimeresurus rubeus",
     "english_name": "Ruby-eyed Pitviper",
     "vietnamese_name": "Rắn lục mắt đỏ",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.inaturalist.org/photos/356216236/medium.jpg",
     "conservation_status": "VU",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Trimeresurus stejnegeri": {
     "scientific_name": "Trimeresurus stejnegeri",
@@ -1959,7 +2404,9 @@
     "distribution": "Lao Cai, Ha Giang, Cao Bang, Thai Nguyen, Vinh Phuc, Bac Giang, Son La, Hoa Binh, Nghe An, Ha Tinh, Quang Binh, Da Nang",
     "thumbnail": "https://static.inaturalist.org/photos/346810884/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_stejnegeri"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_stejnegeri",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Trimeresurus truongsonensis": {
     "scientific_name": "Trimeresurus truongsonensis",
@@ -1968,16 +2415,20 @@
     "distribution": "Quang Binh",
     "thumbnail": "https://static.inaturalist.org/photos/118128920/medium.jpeg",
     "conservation_status": "EN",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_truongsonensis"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_truongsonensis",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Trimeresurus vogeli": {
     "scientific_name": "Trimeresurus vogeli",
-    "english_name": "Vogel’s Pitviper",
+    "english_name": "Vogel's Pitviper",
     "vietnamese_name": "Rắn lục Vôn-gen",
     "distribution": "Ha Tinh, Quang Binh, Quang Tri, Thua Thien Hue, Quang Nam, Kon Tum, Gia Lai, Dak Lak, Lam Dong",
     "thumbnail": "https://static.inaturalist.org/photos/6227283/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_vogeli"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_vogeli",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Achalinus ater": {
     "scientific_name": "Achalinus ater",
@@ -1986,34 +2437,42 @@
     "distribution": "Vinh Phuc",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/304688470/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Achalinus_ater"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Achalinus_ater",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Achalinus emilyae": {
     "scientific_name": "Achalinus emilyae",
     "english_name": "Emily's Odd-scaled Snake",
     "vietnamese_name": "Rắn xe điếu E-mi-ly",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Achalinus juliani": {
     "scientific_name": "Achalinus juliani",
-    "english_name": "Julian’s Odd-scaled Snake",
+    "english_name": "Julian's Odd-scaled Snake",
     "vietnamese_name": "Rắn xe điếu Giư-li-ăng",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Achalinus pingbianensis": {
     "scientific_name": "Achalinus pingbianensis",
     "english_name": "Pingbian Odd-scaled Snake",
     "vietnamese_name": "Rắn xe điếu Bình Biên",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Achalinus rufescens": {
     "scientific_name": "Achalinus rufescens",
@@ -2022,7 +2481,9 @@
     "distribution": "Lao Cai, Cao Bang, Bac Kan, Vinh Phuc, Hai Duong, Ha Tinh",
     "thumbnail": "https://static.inaturalist.org/photos/108614091/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Achalinus spinalis": {
     "scientific_name": "Achalinus spinalis",
@@ -2031,34 +2492,42 @@
     "distribution": "Lao Cai, Thai Nguyen, Vinh Phuc",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/1206992/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Achalinus timi": {
     "scientific_name": "Achalinus timi",
-    "english_name": "Tim’s Odd-scaled Snake",
+    "english_name": "Tim's Odd-scaled Snake",
     "vietnamese_name": "Rắn xa điếu Tim",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Achalinus tranganensis": {
     "scientific_name": "Achalinus tranganensis",
     "english_name": "Trangan Odd-scaled Snake",
     "vietnamese_name": "Rắn xe điếu Tràng An",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Achalinus zugorum": {
     "scientific_name": "Achalinus zugorum",
     "english_name": "Zug's Odd-scaled Snake",
     "vietnamese_name": "Rắn xe điếu Zúc",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Fimbrios klossi": {
     "scientific_name": "Fimbrios klossi",
@@ -2067,7 +2536,9 @@
     "distribution": "Quang Tri, Thua Thien Hue, Kon Tum, Gia Lai, Dak Lak, Lam Dong",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/134561/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Fimbrios smithi": {
     "scientific_name": "Fimbrios smithi",
@@ -2076,25 +2547,31 @@
     "distribution": "Quang Binh",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/246543448/medium.jpg",
     "conservation_status": "DD",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Parafimbrios lao": {
     "scientific_name": "Parafimbrios lao",
     "english_name": "Laotian Bearded Snake",
     "vietnamese_name": "Rắn má Lào",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Parafimbrios vietnamensis": {
     "scientific_name": "Parafimbrios vietnamensis",
     "english_name": "Vietnam Bearded Snake",
     "vietnamese_name": "Rắn má Việt Nam",
-    "distribution": "0",
+    "distribution": "",
     "thumbnail": "https://static.vecteezy.com/system/resources/previews/009/159/553/original/cute-green-snake-cartoon-illustration-vector.jpg",
     "conservation_status": "",
-    "wikipedia_url": null
+    "wikipedia_url": null,
+    "other_name": "",
+    "fun_fact": ""
   },
   "Xenopeltis hainanensis": {
     "scientific_name": "Xenopeltis hainanensis",
@@ -2103,7 +2580,9 @@
     "distribution": "Yen Bai, Cao Bang, Lang Son, Vinh Phuc, Hai Duong, Ha Tinh, Quang Binh",
     "thumbnail": "https://inaturalist-open-data.s3.amazonaws.com/photos/107638544/medium.jpg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Xenopeltis_hainanensis"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Xenopeltis_hainanensis",
+    "other_name": "",
+    "fun_fact": ""
   },
   "Xenopeltis unicolor": {
     "scientific_name": "Xenopeltis unicolor",
@@ -2112,6 +2591,7 @@
     "distribution": "Yen Bai, Lang Son, Thai Nguyen, Vinh Phuc, Quang Ninh, Hai Duong, Ha Noi, Son La, Hoa Binh, Ninh Binh, Thanh Hoa, Nghe An, Ha Tinh, Quang Binh, Quang Tri, Da Nang, Quang Nam, Kon Tum, Lam Dong, Ninh Thuan, Binh Phuoc, Dong Nai, Tay Ninh, Ho Chi Minh, Tien Giang, Can Tho, Kien Giang, Ca Mau",
     "thumbnail": "https://static.inaturalist.org/photos/118977944/medium.jpeg",
     "conservation_status": "LC",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Xenopeltis_unicolor"
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Xenopeltis_unicolor",
+    "other_name": "Rắn hổ hành"
   }
 }

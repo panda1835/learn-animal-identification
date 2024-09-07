@@ -1,11 +1,8 @@
-// app/snakes/page.js
 "use client"; // Indicate this is a Client Component
 
 import React, { useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
 
-import ListItem from "../../../components/ListItem";
+import ListPage from "../../../components/ListPage";
 
 import snakesData from "../../../data/snake/snake_vietnam.json";
 
@@ -25,7 +22,8 @@ export default function SnakeList() {
         return (
           snake.vietnamese_name.toLowerCase().includes(query) ||
           snake.scientific_name.toLowerCase().includes(query) ||
-          snake.distribution.toLowerCase().includes(query)
+          snake.other_name.toLowerCase().includes(query)
+          // snake.distribution.toLowerCase().includes(query)
         );
       })
       .reduce((obj, key) => {
@@ -38,7 +36,7 @@ export default function SnakeList() {
 
   return (
     <div className="max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold mb-4">Snake List</h1>
+      <h1 className="text-3xl font-bold mb-4">Danh sách loài</h1>
 
       {/* Search bar */}
       <div className="relative mb-5">
@@ -48,7 +46,7 @@ export default function SnakeList() {
           type="text"
           value={searchTerm}
           onChange={handleSearch}
-          placeholder="Search by Vietnamese or Scientific Name"
+          placeholder="Tìm kiếm bằng tên thường gọi hoặc tên khoa học"
           className="w-full p-3 pl-10 pr-14 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
         />
         {/* Search icon */}
@@ -69,14 +67,7 @@ export default function SnakeList() {
           </svg>
         </div>
       </div>
-
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {Object.keys(filteredSnakes).map((key) => {
-          const snake = filteredSnakes[key];
-
-          return <ListItem snake={snake} key={snake.scientific_name} />;
-        })}
-      </div>
+      <ListPage snakeList={filteredSnakes} />
     </div>
   );
 }

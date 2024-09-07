@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <ul className="flex space-x-4">
             <li>
               <Link href="/" className="text-white hover:underline">
-                Quiz
+                Học
               </Link>
             </li>
             <li>

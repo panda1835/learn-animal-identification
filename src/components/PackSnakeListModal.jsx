@@ -1,15 +1,20 @@
 import React from "react";
 import { createPortal } from "react-dom";
+import Image from "next/image";
+import { ListItem } from "./ListItem";
 
-import SnakeInfo from "./SnakeInfo";
-
-export default function SnakeInfoModal({ show, onClose, snake }) {
+export default function PackSnakeInfoModal({ show, onClose, snakeList }) {
   if (!show) return null;
 
   return createPortal(
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-5">
       <div className="bg-white p-6 rounded-lg shadow-lg max-w-md w-full relative border border-gray-300">
-        <SnakeInfo snake={snake}></SnakeInfo>
+        <h3>Danh sách {snakeList.length} loài trong gói này</h3>
+        <ul>
+          {snakeList.map((snake, index) => (
+            <ListItem key={index} snake={snake} />
+          ))}
+        </ul>
         <button
           onClick={onClose}
           className="absolute top-2 right-2 text-gray-500 hover:text-gray-700 transition"

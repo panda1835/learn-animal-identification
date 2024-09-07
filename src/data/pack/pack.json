@@ -1,0 +1,51 @@
+{
+  "basic1": {
+    "name": "Basic 1",
+    "description": "A basic pack of snakes.",
+    "thumbnail": "",
+    "species": [
+      "Deinagkistrodon acutus",
+      "Protobothrops mucrosquamatus",
+      "Trimeresurus albolabris",
+      "Trimeresurus rubeus",
+      "Trimeresurus truongsonensis",
+      "Trimeresurus stejnegeri",
+      "Trimeresurus honsonensis",
+      "Trimeresurus vogeli",
+      "Ptyas mucosa",
+      "Ptyas nigromarginata",
+      "Ptyas korros",
+      "Homalopsis mereljcoxi",
+      "Bungarus fasciatus",
+      "Bungarus candidus",
+      "Calliophis maculiceps",
+      "Lycodon capucinus",
+      "Lycodon laoensis"
+    ]
+  },
+
+  "basic2": {
+    "name": "Basic 2",
+    "description": "A basic pack of snakes.",
+    "thumbnail": "",
+    "species": [
+      "Ahaetulla prasina",
+      "Chrysopelea ornata",
+      "Naja siamensis",
+      "Naja kaouthia",
+      "Trimeresurus albolabris",
+      "Calloselasma rhodostoma",
+      "Xenopeltis unicolor",
+      "Rhabdophis subminiatus",
+      "Ptyas korros",
+      "Ptyas mucosa",
+      "Cylindrophis jodiae",
+      "Enhydris enhydris",
+      "Fowlea flavipunctata",
+      "Coelognathus radiatus",
+      "Dendrelaphis pictus",
+      "Ahaetulla nasuta",
+      "Subsessor bocourti"
+    ]
+  }
+}

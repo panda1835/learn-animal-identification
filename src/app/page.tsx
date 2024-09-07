@@ -17,8 +17,8 @@ export default function HomePage() {
       </header>
       <div className="relative w-full h-80 mb-8">
         <Image
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1d6oaUpJaf609hu1Ruk-KfyC_oKm8Tducn2OoFfPPrXqXUgFS"
-          alt="Cobra in Forest"
+          src="https://images5.alphacoders.com/872/872097.jpg"
+          alt="Pit viper"
           fill
           style={{ objectFit: "cover" }}
           className="rounded-lg shadow-md"
@@ -37,7 +37,7 @@ export default function HomePage() {
       </section>
       <section className="text-center">
         <Link href="/snakes/quiz">
-          <button className="bg-green-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-green-700 transition text-xl font-semibold">
+          <button className="bg-primaryColor-light text-white px-6 py-3 rounded-lg shadow-md hover:bg-primaryColor transition text-xl font-semibold">
             Start the Quiz
           </button>
         </Link>
