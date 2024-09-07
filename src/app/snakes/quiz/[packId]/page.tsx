@@ -32,8 +32,11 @@ export default function QuizPage({
     Number(searchParams?.numQuestions) || config.defaultNumberOfQuestions;
 
   const pack = packData[packId];
-  const quizData = createQuiz(pack["species"], numQuestion);
+  // const quizData = createQuiz(pack["species"], numQuestion);
 
+  const [quizData, setQuizData] = useState(
+    createQuiz(pack["species"], numQuestion)
+  );
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState(quizData[0]);
   const [modalSpecies, setModalSpecies] = useState("");
@@ -208,11 +211,13 @@ export default function QuizPage({
           score={score}
           totalQuestions={quizData.length}
           onRestart={() => {
+            setQuizData(createQuiz(pack["species"], numQuestion));
             setCurrentQuestionIndex(0);
             setScore(0);
             setShowScoreBoard(false);
             setSelectedAnswer("");
             setShowResult(false);
+            setCurrentQuestion(quizData[0]);
           }}
         />
       )}

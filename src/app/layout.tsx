@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <nav className="bg-green-600 p-4 ">
           <ul className="flex space-x-4">
             <li>
-              <Link href="/" className="text-white hover:underline">
+              <Link href="/snakes/quiz" className="text-white hover:underline">
                 Học
               </Link>
             </li>
