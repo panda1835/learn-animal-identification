@@ -3,15 +3,20 @@ import Image from "next/image";
 import { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
+
+import { createImageSlides } from "../utils/slides";
 
 import snakeImage from "../data/snake/snake_inat_image.json";
 
 export default function SnakeInfo({ snake }) {
   const images = snakeImage[snake.scientific_name]["image_urls"];
-  // Get only 10 images
-  const imagesSlice = images.slice(0, 10);
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const [lightboxOpen, setLightboxOpen] = useState(false);
+
+  const lightboxSlides = createImageSlides(
+    images.map((image) => ({ url: image, width: 700, height: 500 }))
+  );
 
   return (
     <>
@@ -43,9 +48,9 @@ export default function SnakeInfo({ snake }) {
       <Lightbox
         open={lightboxOpen}
         close={() => setLightboxOpen(false)}
-        slides={images.map((image) => ({ src: image }))}
+        slides={lightboxSlides}
         index={activeImageIndex}
-        // plugins={[Fullscreen, Thumbnails, Zoom]}
+        plugins={[Zoom]}
       />
 
       <div className="bg-white p-4 rounded shadow">
