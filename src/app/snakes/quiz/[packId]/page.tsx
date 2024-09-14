@@ -7,6 +7,8 @@ import "yet-another-react-lightbox/styles.css";
 import Image from "next/image";
 import clsx from "clsx";
 
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
+
 import SnakeInfoModal from "../../../../components/SnakeInfoModal";
 import ScoreBoard from "../../../../components/ScoreBoard";
 
@@ -14,8 +16,10 @@ import packData from "../../../../data/pack/pack.json";
 import snakeData from "../../../../data/snake/snake_vietnam.json";
 import snakeImage from "../../../../data/snake/snake_inat_image.json";
 
+import { createImageSlides } from "../../../../utils/slides";
 import { createQuiz } from "../../../../utils/createQuiz";
 import { config } from "../../../../utils/config";
+import Link from "next/link";
 
 export default function QuizPage({
   params,
@@ -33,9 +37,9 @@ export default function QuizPage({
     Number(searchParams?.numQuestions) || config.defaultNumberOfQuestions;
 
   const pack = packData[packId];
-  // const quizData = createQuiz(pack["species"], numQuestion);
 
   const quizData = createQuiz(pack["species"], snakeImage, numQuestion);
+
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState(quizData[0]);
   const [modalSpecies, setModalSpecies] = useState("");
@@ -45,6 +49,9 @@ export default function QuizPage({
   const [showScoreBoard, setShowScoreBoard] = useState(false);
   const [score, setScore] = useState(0);
   const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxSlides, setLightboxSlides] = useState(
+    createImageSlides([{ url: currentQuestion.image, width: 700, height: 500 }])
+  );
 
   const handleAnswerSelect = (answer) => {
     setSelectedAnswer(answer);
@@ -64,6 +71,15 @@ export default function QuizPage({
       setShowResult(false);
       setCurrentQuestionIndex(currentQuestionIndex + 1);
       setCurrentQuestion(quizData[currentQuestionIndex]);
+      setLightboxSlides(
+        createImageSlides([
+          {
+            url: quizData[currentQuestionIndex].image,
+            width: 700,
+            height: 500,
+          },
+        ])
+      );
     }
   };
 
@@ -83,7 +99,7 @@ export default function QuizPage({
           ></div>
         </div>
       </div>
-      <div className="relative w-full h-72 mb-6">
+      <div className="relative w-full h-72 mb-2">
         <Image
           src={currentQuestion.image}
           alt="Ảnh một bạn rắn"
@@ -98,10 +114,17 @@ export default function QuizPage({
         <Lightbox
           open={lightboxOpen}
           close={() => setLightboxOpen(false)}
-          slides={[{ src: currentQuestion.image }]}
+          slides={lightboxSlides}
           // plugins={[Fullscreen, Thumbnails, Zoom]}
+          plugins={[Zoom]}
         />
       </div>
+      <p className="mb-4 text-xs italic">
+        {`Ảnh của ${"123"} trên `}
+        <Link href="www.google.com" className="text-blue-500 underline">
+          iNaturalist
+        </Link>
+      </p>
       <div className="grid grid-cols-2 gap-6 mb-6">
         {currentQuestion.options.map((option, index) => (
           <button
