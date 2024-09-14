@@ -4,6 +4,8 @@ import React, { ReactNode } from "react";
 
 import "@fontsource/roboto-flex";
 
+import Navigation from "../../components/Navigation";
+
 export const metadata = {
   title: "Nhận diện Gấu 🐻",
   description: "Học cách nhận diện các loài gấu khác nhau",
@@ -24,31 +26,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <h1 className="text-2xl font-semibold text-white align-middle">
               <Link href="/bears">Nhận diện gấu</Link>
             </h1>
-            <nav>
-              <ul className="flex space-x-4">
-                <li>
-                  <Link href="/" className="text-white hover:underline text-lg">
-                    Trang chủ
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/bears/quiz"
-                    className="text-white hover:underline text-lg"
-                  >
-                    Học
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/bears/list"
-                    className="text-white hover:underline text-lg"
-                  >
-                    Danh sách loài
-                  </Link>
-                </li>
-              </ul>
-            </nav>
+            <Navigation
+              items={[
+                { href: "/", label: "Trang chủ" },
+                { href: "/bears/quiz", label: "Học" },
+                { href: "/bears/list", label: "Danh sách loài" },
+              ]}
+            />
           </div>
         </header>
 
