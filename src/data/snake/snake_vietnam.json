@@ -217,13 +217,25 @@
     "conservation_status": "LC",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Ahaetulla_prasina",
     "other_name": "",
-    "fun_fact": ""
+    "fun_fact": "",
+    "size": "TL up to 1,970 mm.",
+    "identification": "Extremely slender body; elongated snout without rostral appendage; horizontal pupil",
+    "diet": "Mainly lizards (arboreal and terrestrial) and birds, occasionaly smal mammals.",
+    "confusing_species": ["Ahaetulla nasuta"],
+    "toxicity": "Mildly venomous.",
+    "note": "Poseses enlarged rear fangs and venom glands, bites may cause moderate pain, inflammation and itching.",
+    "source": [
+      {
+        "name": "HSV",
+        "page": "215-217"
+      }
+    ]
   },
   "Ahaetulla rufusoculara": {
     "scientific_name": "Ahaetulla rufusoculara",
     "english_name": "Red-eyed Whip Snake",
     "vietnamese_name": "Rắn roi mắt đỏ",
-    "distribution": "o",
+    "distribution": "",
     "thumbnail": "https://static.inaturalist.org/photos/227222471/medium.jpeg",
     "conservation_status": "",
     "wikipedia_url": null,
@@ -232,13 +244,15 @@
   },
   "Chrysopelea ornata": {
     "scientific_name": "Chrysopelea ornata",
-    "english_name": "Golden Tree Snake",
+    "english_name": "Golden Tree Snake, Ornate flying snake",
     "vietnamese_name": "Rắn cườm",
     "distribution": "Yen Bai, Son La, Thai Nguyen, Vinh Phuc, Nghe An, Quang Binh, Quang Tri, Da Nang, Quang Nam, Kon Tum, Gia Lai, Dak Lak, Khanh Hoa, Ninh Thuan, Dong Nai, Tay Ninh, Ba Ria Vung Tau, Ho Chi Minh, An Giang, Tien Giang, Soc Trang, Vinh Long, Kien Giang, Ca Mau",
     "thumbnail": "https://static.inaturalist.org/photos/329145707/medium.jpg",
     "conservation_status": "",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Chrysopelea_ornata",
     "other_name": "",
+    "confusing_species": [],
+    "toxicity": "Mildly venomous",
     "fun_fact": ""
   },
   "Dendrelaphis cyanochloris": {
@@ -1581,6 +1595,8 @@
     "conservation_status": "VU",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Indochinese_spitting_cobra",
     "other_name": "",
+    "confusing_species": [],
+    "toxicity": "",
     "fun_fact": ""
   },
   "Ophiophagus hannah": {

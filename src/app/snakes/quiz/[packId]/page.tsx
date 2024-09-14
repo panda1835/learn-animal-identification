@@ -35,9 +35,7 @@ export default function QuizPage({
   const pack = packData[packId];
   // const quizData = createQuiz(pack["species"], numQuestion);
 
-  const [quizData, setQuizData] = useState(
-    createQuiz(pack["species"], snakeImage, numQuestion)
-  );
+  const quizData = createQuiz(pack["species"], snakeImage, numQuestion);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState(quizData[0]);
   const [modalSpecies, setModalSpecies] = useState("");
@@ -132,7 +130,9 @@ export default function QuizPage({
             <span className="text-xl font-bold">
               {snakeData[option]["vietnamese_name"]}
             </span>
-            <span className="text-sm text-gray-700 mt-2">toxicity</span>
+            <span className="text-sm text-gray-700 mt-2">
+              {snakeData[option]["other_name"]}
+            </span>
           </button>
         ))}
       </div>
@@ -212,13 +212,8 @@ export default function QuizPage({
           score={score}
           totalQuestions={quizData.length}
           onRestart={() => {
-            setQuizData(createQuiz(pack["species"], snakeImage, numQuestion));
-            setCurrentQuestionIndex(0);
-            setScore(0);
-            setShowScoreBoard(false);
-            setSelectedAnswer("");
-            setShowResult(false);
-            setCurrentQuestion(quizData[0]);
+            // Refresh page
+            window.location.reload();
           }}
         />
       )}
