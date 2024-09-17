@@ -101,11 +101,12 @@ export default function QuizPage({
       </div>
       <div className="relative w-full h-72 mb-2">
         <Image
+          unoptimized
           src={currentQuestion.image}
           alt="Ảnh một bạn rắn"
           fill
           style={{ objectFit: "contain" }}
-          className="rounded-lg shadow-md"
+          className="rounded-lg shadow-md hover:cursor-pointer"
           onClick={() => {
             setLightboxOpen(true);
           }}
@@ -125,13 +126,13 @@ export default function QuizPage({
           iNaturalist
         </Link>
       </p>
-      <div className="grid grid-cols-2 gap-6 mb-6">
+      <div className="grid grid-cols-2 gap-6 mb-6 relative">
         {currentQuestion.options.map((option, index) => (
           <button
             key={index}
             onClick={() => handleAnswerSelect(option)}
             className={clsx(
-              "p-4 rounded-lg shadow-md transition transform hover:scale-105 flex flex-col items-center justify-center",
+              "w-full h-full p-4 rounded-lg shadow-md transition hover:scale-105 transform  flex flex-col items-center justify-center relative", // Set button to relative
               {
                 // Default styling when no answer is selected
                 "bg-yellow-500 text-gray-800 hover:bg-yellow-600":
@@ -153,6 +154,14 @@ export default function QuizPage({
             <span className="text-xl font-bold">
               {snakeData[option]["vietnamese_name"]}
             </span>
+            <p
+              className={clsx("font-bold", {
+                "text-green-700": snakeData[option]["harmless"], // Green for harmless
+                "text-red-700": !snakeData[option]["harmless"], // Red for dangerous
+              })}
+            >
+              {snakeData[option].harmless ? "Vô hại" : "Nguy hiểm"}
+            </p>
             <span className="text-sm text-gray-700 mt-2">
               {snakeData[option]["other_name"]}
             </span>
@@ -212,6 +221,7 @@ export default function QuizPage({
             >
               <div className="relative w-full h-32 mb-2">
                 <Image
+                  unoptimized
                   src={snakeData[species].thumbnail}
                   alt={snakeData[species].vietnamese_name}
                   fill
@@ -222,6 +232,17 @@ export default function QuizPage({
               <p className="text-xl font-semibold">
                 {snakeData[species].vietnamese_name}
               </p>
+              {snakeData[species]["harmless"] !== undefined && (
+                <p
+                  className={clsx("font-bold", {
+                    "text-green-600": snakeData[species]["harmless"], // Green for harmless
+                    "text-red-600": !snakeData[species]["harmless"], // Red for dangerous
+                  })}
+                >
+                  {snakeData[species].harmless ? "Vô hại" : "Nguy hiểm"}
+                </p>
+              )}
+
               <p className="italic">{snakeData[species].scientific_name}</p>
               <p className="">{snakeData[species].other_name}</p>
             </button>
