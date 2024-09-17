@@ -30,7 +30,7 @@ const ListPack = () => {
     <div>
       {/* List all packs */}
       <h1>Các gói học tập</h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {Object.entries(pack).map(([key, value]) => (
           <div
             key={key}
@@ -48,17 +48,21 @@ const ListPack = () => {
                   (Xem danh sách)
                 </Link>{" "}
               </p>
-              <div className="mb-2">
+              <div className="mb-2 pr-4">
                 <p>
-                  Số lượng câu hỏi:{""}
-                  <input
-                    type="number"
-                    value={numQuestions[key] || defaultNumQuestions}
-                    onChange={(event) => handleNumQuestionsChange(key, event)}
-                    className="ml-2 w-16 p-1 border rounded"
-                    min="1"
-                  />
+                  Số lượng câu hỏi:{""}{" "}
+                  <span className="ml-2">
+                    {numQuestions[key] || defaultNumQuestions}
+                  </span>
                 </p>
+                <input
+                  type="range"
+                  value={numQuestions[key] || defaultNumQuestions}
+                  onChange={(event) => handleNumQuestionsChange(key, event)}
+                  className="ml-2 w-full border rounded"
+                  min="1"
+                  max="50"
+                />
               </div>
 
               <div className="flex justify-end">
@@ -68,7 +72,7 @@ const ListPack = () => {
                   }`}
                   key={key}
                 >
-                  <p className="inline-block rounded bg-green-700 p-2 text-white">
+                  <p className="inline-block rounded hover:scale-105 bg-green-700 p-2 text-white">
                     Bắt đầu học
                   </p>
                 </Link>
