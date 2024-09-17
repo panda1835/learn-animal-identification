@@ -85,6 +85,7 @@ export default function QuizPage({
       </div>
       <div className="relative w-full h-72 mb-6">
         <Image
+          unoptimized
           src={currentQuestion.image}
           alt="Ảnh một bạn gấu"
           fill
@@ -185,6 +186,7 @@ export default function QuizPage({
             >
               <div className="relative w-full h-32 mb-2">
                 <Image
+                  unoptimized
                   src={bearData[species].thumbnail}
                   alt={bearData[species].vietnamese_name}
                   fill

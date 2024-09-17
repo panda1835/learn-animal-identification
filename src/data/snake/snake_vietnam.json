@@ -206,7 +206,8 @@
     "conservation_status": "LC",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Ahaetulla_nasuta",
     "other_name": "",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": true
   },
   "Ahaetulla prasina": {
     "scientific_name": "Ahaetulla prasina",
@@ -223,6 +224,7 @@
     "diet": "Mainly lizards (arboreal and terrestrial) and birds, occasionaly smal mammals.",
     "confusing_species": ["Ahaetulla nasuta"],
     "toxicity": "Mildly venomous.",
+    "harmless": true,
     "note": "Poseses enlarged rear fangs and venom glands, bites may cause moderate pain, inflammation and itching.",
     "source": [
       {
@@ -251,6 +253,7 @@
     "conservation_status": "",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Chrysopelea_ornata",
     "other_name": "",
+    "harmless": true,
     "confusing_species": [],
     "toxicity": "Mildly venomous",
     "fun_fact": ""
@@ -275,7 +278,8 @@
     "conservation_status": "",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Dendrelaphis_pictus",
     "other_name": "",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": true
   },
   "Dendrelaphis subocularis": {
     "scientific_name": "Dendrelaphis subocularis",
@@ -429,7 +433,8 @@
     "conservation_status": "LC",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Radiated_ratsnake",
     "other_name": "Rắn rồng, rắn hổ ngựa",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": true
   },
   "Elaphe carinata": {
     "scientific_name": "Elaphe carinata",
@@ -627,7 +632,8 @@
     "conservation_status": "LC",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Lycodon_capucinus",
     "other_name": "",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": true
   },
   "Lycodon fasciatus": {
     "scientific_name": "Lycodon fasciatus",
@@ -649,7 +655,8 @@
     "conservation_status": "LC",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Lycodon_laoensis",
     "other_name": "",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": true
   },
   "Lycodon paucifasciatus": {
     "scientific_name": "Lycodon paucifasciatus",
@@ -946,7 +953,8 @@
     "conservation_status": "NT",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Ptyas_korros",
     "other_name": "ngù thinh (người Tày), ngù sla (người Nùng), ngù xinh (người Thái)",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": true
   },
   "Ptyas major": {
     "scientific_name": "Ptyas major",
@@ -968,7 +976,8 @@
     "conservation_status": "",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Ptyas_mucosa",
     "other_name": "Rắn long thừa, rắn hổ hèo, rắn hổ dện (vện), rắn hổ trâu",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": true
   },
   "Ptyas multicinctus": {
     "scientific_name": "Ptyas multicinctus",
@@ -990,7 +999,8 @@
     "conservation_status": "",
     "wikipedia_url": null,
     "other_name": "",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": true
   },
   "Colubroelaps nguyenvansangi": {
     "scientific_name": "Colubroelaps nguyenvansangi",
@@ -1034,7 +1044,8 @@
     "conservation_status": "LC",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Yellow-spotted_keelback",
     "other_name": "",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": true
   },
   "Hebius andreae": {
     "scientific_name": "Hebius andreae",
@@ -1342,7 +1353,8 @@
     "conservation_status": "LC",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Rhabdophis_subminiatus",
     "other_name": "Rắn cổ trĩ đỏ, rắn nước cổ đỏ, rắn cổ bẹt",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": true
   },
   "Trimerodytes aequifasciatus": {
     "scientific_name": "Trimerodytes aequifasciatus",
@@ -1507,7 +1519,8 @@
     "conservation_status": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cylindrophis_jodiae",
     "other_name": "",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": true
   },
   "Bungarus candidus": {
     "scientific_name": "Bungarus candidus",
@@ -1529,7 +1542,8 @@
     "conservation_status": "LC",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Banded_krait",
     "other_name": "",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": false
   },
   "Bungarus flaviceps": {
     "scientific_name": "Bungarus flaviceps",
@@ -1584,7 +1598,8 @@
     "conservation_status": "VU",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Chinese_cobra",
     "other_name": "",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": false
   },
   "Naja siamensis": {
     "scientific_name": "Naja siamensis",
@@ -1595,6 +1610,7 @@
     "conservation_status": "VU",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Indochinese_spitting_cobra",
     "other_name": "",
+    "harmless": false,
     "confusing_species": [],
     "toxicity": "",
     "fun_fact": ""
@@ -1629,8 +1645,9 @@
     "thumbnail": "https://static.inaturalist.org/photos/74566076/medium.jpg",
     "conservation_status": "LC",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Calliophis_maculiceps",
-    "other_name": "",
-    "fun_fact": ""
+    "other_name": "Rắn vú nàng",
+    "fun_fact": "",
+    "harmless": false
   },
   "Sinomicrurus annularis": {
     "scientific_name": "Sinomicrurus annularis",
@@ -1971,7 +1988,8 @@
     "conservation_status": "LC",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Rainbow_water_snake",
     "other_name": "",
-    "fun_fact": "Gọi là rắn bông súng do chúng thường di chuyển trên lá súng."
+    "fun_fact": "Gọi là rắn bông súng do chúng thường di chuyển trên lá súng.",
+    "harmless": true
   },
   "Enhydris innominata": {
     "scientific_name": "Enhydris innominata",
@@ -2026,7 +2044,8 @@
     "conservation_status": "",
     "wikipedia_url": null,
     "other_name": "",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": true
   },
   "Hypsiscopus plumbea": {
     "scientific_name": "Hypsiscopus plumbea",
@@ -2070,7 +2089,8 @@
     "conservation_status": "LC",
     "wikipedia_url": "https://vi.wikipedia.org/wiki/Rắn_ri_voi",
     "other_name": "Rắn ri voi, rắn ri tượng",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": true
   },
   "Psammodynastes pulverulentus": {
     "scientific_name": "Psammodynastes pulverulentus",
@@ -2246,7 +2266,8 @@
     "conservation_status": "LC",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Calloselasma",
     "other_name": "Rắn lục nưa, rắn cà tên, rắn cà tênh, rắn lục Malaysia",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": false
   },
   "Deinagkistrodon acutus": {
     "scientific_name": "Deinagkistrodon acutus",
@@ -2257,7 +2278,8 @@
     "conservation_status": "",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Deinagkistrodon",
     "other_name": "",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": false
   },
   "Ovophis monticola": {
     "scientific_name": "Ovophis monticola",
@@ -2323,7 +2345,8 @@
     "conservation_status": "LC",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_mucrosquamatus",
     "other_name": "",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": false
   },
   "Protobothrops sieversorum": {
     "scientific_name": "Protobothrops sieversorum",
@@ -2356,7 +2379,8 @@
     "conservation_status": "LC",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_albolabris",
     "other_name": "",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": false
   },
   "Trimeresurus cardamomensis": {
     "scientific_name": "Trimeresurus cardamomensis",
@@ -2400,7 +2424,8 @@
     "conservation_status": "VU",
     "wikipedia_url": null,
     "other_name": "",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": false
   },
   "Trimeresurus rubeus": {
     "scientific_name": "Trimeresurus rubeus",
@@ -2411,7 +2436,8 @@
     "conservation_status": "VU",
     "wikipedia_url": null,
     "other_name": "",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": false
   },
   "Trimeresurus stejnegeri": {
     "scientific_name": "Trimeresurus stejnegeri",
@@ -2422,7 +2448,8 @@
     "conservation_status": "LC",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_stejnegeri",
     "other_name": "",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": false
   },
   "Trimeresurus truongsonensis": {
     "scientific_name": "Trimeresurus truongsonensis",
@@ -2433,7 +2460,8 @@
     "conservation_status": "EN",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_truongsonensis",
     "other_name": "",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": false
   },
   "Trimeresurus vogeli": {
     "scientific_name": "Trimeresurus vogeli",
@@ -2444,7 +2472,8 @@
     "conservation_status": "LC",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Trimeresurus_vogeli",
     "other_name": "",
-    "fun_fact": ""
+    "fun_fact": "",
+    "harmless": false
   },
   "Achalinus ater": {
     "scientific_name": "Achalinus ater",
@@ -2608,6 +2637,7 @@
     "thumbnail": "https://static.inaturalist.org/photos/118977944/medium.jpeg",
     "conservation_status": "LC",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Xenopeltis_unicolor",
-    "other_name": "Rắn hổ hành"
+    "other_name": "Rắn hổ hành",
+    "harmless": true
   }
 }

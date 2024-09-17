@@ -17,6 +17,7 @@ export default function HomePage() {
       </header>
       <div className="relative w-full h-80 mb-8">
         <Image
+          unoptimized
           src="https://images5.alphacoders.com/872/872097.jpg"
           alt="Rắn lục"
           fill

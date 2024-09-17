@@ -28,6 +28,7 @@ export default function SnakeInfo({ snake }) {
           {images.map((image, index) => (
             <div key={index} className="flex-shrink-0 h-64">
               <Image
+                unoptimized
                 src={image}
                 alt={snake.vietnamese_name}
                 height={256} // Fixed height

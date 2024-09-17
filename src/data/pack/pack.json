@@ -1,34 +1,8 @@
 {
   "basic1": {
-    "name": "Basic 1",
-    "short_description": "A basic pack of snakes.",
-    "long_description": "A basic pack of snakes. This pack contains a variety of snakes from different families.",
-    "thumbnail": "",
-    "species": [
-      "Deinagkistrodon acutus",
-      "Protobothrops mucrosquamatus",
-      "Trimeresurus albolabris",
-      "Trimeresurus rubeus",
-      "Trimeresurus truongsonensis",
-      "Trimeresurus stejnegeri",
-      "Trimeresurus honsonensis",
-      "Trimeresurus vogeli",
-      "Ptyas mucosa",
-      "Ptyas nigromarginata",
-      "Ptyas korros",
-      "Homalopsis mereljcoxi",
-      "Bungarus fasciatus",
-      "Bungarus candidus",
-      "Calliophis maculiceps",
-      "Lycodon capucinus",
-      "Lycodon laoensis"
-    ]
-  },
-
-  "basic2": {
-    "name": "Basic 2",
-    "short_description": "A basic pack of snakes.",
-    "long_description": "A basic pack of snakes. This pack contains a variety of snakes from different families.",
+    "name": "Gói cơ bản 1",
+    "short_description": "Những loài rắn thường gặp.",
+    "long_description": "Đây là danh sách những bạn rắn mà bạn có thể bắt gặp trong cuộc sống hàng ngày.",
     "thumbnail": "",
     "species": [
       "Ahaetulla prasina",
@@ -48,6 +22,30 @@
       "Dendrelaphis pictus",
       "Ahaetulla nasuta",
       "Subsessor bocourti"
+    ]
+  },
+  "basic2": {
+    "name": "Gói cơ bản 2",
+    "short_description": "Phân biệt rắn lục và các loài rắn khác.",
+    "long_description": "Gói này sẽ giúp bạn phân biệt giữa các loài rắn lục và các loài rắn khác.",
+    "thumbnail": "",
+    "species": [
+      "Deinagkistrodon acutus",
+      "Protobothrops mucrosquamatus",
+      "Trimeresurus albolabris",
+      "Trimeresurus rubeus",
+      "Trimeresurus truongsonensis",
+      "Trimeresurus stejnegeri",
+      "Trimeresurus honsonensis",
+      "Trimeresurus vogeli",
+      "Ptyas mucosa",
+      "Ptyas nigromarginata",
+      "Ptyas korros",
+      "Homalopsis mereljcoxi",
+      "Bungarus fasciatus",
+      "Calliophis maculiceps",
+      "Lycodon capucinus",
+      "Lycodon laoensis"
     ]
   }
 }

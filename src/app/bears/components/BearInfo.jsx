@@ -26,6 +26,7 @@ export default function BearInfo({ bear }) {
           {images.map((image, index) => (
             <div key={index} className="flex-shrink-0 h-64">
               <Image
+                unoptimized
                 src={image}
                 alt={bear.vietnamese_name}
                 height={256} // Fixed height

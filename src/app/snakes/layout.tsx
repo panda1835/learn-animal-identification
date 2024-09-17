@@ -22,12 +22,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body className="min-h-screen bg-gray-100 font-roboto-flex flex flex-col">
         {/* Improved Navigation */}
         <header className="bg-primaryColorSnake-light shadow-md">
-          <div className="container mx-auto flex justify-between items-center align-middle p-4">
-            <h1 className="text-2xl font-semibold text-white items-center">
-              <Link href="/snakes" className="items-center">
+          <div className="container mx-auto flex justify-between items-center p-4">
+            <Link href="/snakes" className="items-center">
+              <h1 className="text-2xl font-semibold text-white">
                 Nhận diện rắn
-              </Link>
-            </h1>
+              </h1>
+            </Link>
+
             <Navigation
               items={[
                 { href: "/", label: "Trang chủ" },

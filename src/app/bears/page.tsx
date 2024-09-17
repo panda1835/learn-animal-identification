@@ -17,6 +17,7 @@ export default function HomePage() {
       </header>
       <div className="relative w-full h-80 mb-8">
         <Image
+          unoptimized
           src="https://cdnmedia.baotintuc.vn/Upload/DmtgOUlHWBO5POIHzIwr1A/files/2024/02/07/gau-ngua-0702202-01.jpg"
           alt="Gấu ngựa"
           fill

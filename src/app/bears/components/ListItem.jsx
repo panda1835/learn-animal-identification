@@ -10,6 +10,7 @@ export default function ListItem({ bear }) {
       <div className="bg-white p-4 rounded shadow hover:shadow-lg transition-shadow h-full">
         <div className="relative w-full h-32 mb-2">
           <Image
+            unoptimized
             src={bear.thumbnail}
             alt={bear.vietnamese_name}
             fill

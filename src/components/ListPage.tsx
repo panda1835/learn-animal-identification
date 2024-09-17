@@ -70,6 +70,7 @@ const ListPage = ({ snakeList }) => {
                       <div className="flex flex-row items-center">
                         <Link href={`/snakes/${snake.scientific_name}`}>
                           <Image
+                            unoptimized
                             src={snake.thumbnail}
                             alt={snake.vietnamese_name}
                             height={128} // Smaller image on all screens
